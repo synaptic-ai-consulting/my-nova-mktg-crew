@@ -1,0 +1,2413 @@
+{
+  "language": "en",
+  "language_probability": 1,
+  "duration": 2687.424,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 6.5,
+      "text": " Hello, everybody. My name is Carmelo Jaree, I'm a founder, a CEO of Synoptic AI Consulting"
+    },
+    {
+      "id": 2,
+      "start": 6.5,
+      "end": 15.4,
+      "text": " as a consulting firm, building AI application for enterprises. But today we're, it's a special"
+    },
+    {
+      "id": 3,
+      "start": 15.4,
+      "end": 22.12,
+      "text": " lightning lesson that we do in partnership with mevon and agent.ai. And I'm particularly"
+    },
+    {
+      "id": 4,
+      "start": 22.12,
+      "end": 29.6,
+      "text": " excited about today, because I can see there's been a trend in the industry. It's been led"
+    },
+    {
+      "id": 5,
+      "start": 29.6,
+      "end": 37.52,
+      "text": " by software development in the turning our knowledge work, agentic. But this trend is now"
+    },
+    {
+      "id": 6,
+      "start": 37.52,
+      "end": 43.24,
+      "text": " expanding beyond software development and technical jobs. So I'm pretty excited about sharing"
+    },
+    {
+      "id": 7,
+      "start": 43.24,
+      "end": 48.480000000000004,
+      "text": " with you a little bit of some of the things I've built for the session. I hope you're going"
+    },
+    {
+      "id": 8,
+      "start": 48.480000000000004,
+      "end": 55.36000000000001,
+      "text": " to join and have a great interactive session. So to get started, what we're going to start"
+    },
+    {
+      "id": 9,
+      "start": 55.36000000000001,
+      "end": 62.60000000000001,
+      "text": " looking at the paradigm shift, what happens with AI? I think 2026 everybody who has not"
+    },
+    {
+      "id": 10,
+      "start": 62.60000000000001,
+      "end": 67.80000000000001,
+      "text": " been living under a stone with seeing this impact in their lives and their jobs for the"
+    },
+    {
+      "id": 11,
+      "start": 67.80000000000001,
+      "end": 72.84,
+      "text": " past three years. But things, how AI is impact in the job is changing and it's changing very"
+    },
+    {
+      "id": 12,
+      "start": 72.84,
+      "end": 77.60000000000001,
+      "text": " fast. And so we're going to see the shift from chat and interaction with another man to"
+    },
+    {
+      "id": 13,
+      "start": 77.60000000000001,
+      "end": 84.2,
+      "text": " television and orchestrating multiple agents. We're going to look at, see why this is important,"
+    },
+    {
+      "id": 14,
+      "start": 84.2,
+      "end": 91.44000000000001,
+      "text": " why this agency player is really impacting, it's going to change in the way the work is being"
+    },
+    {
+      "id": 15,
+      "start": 91.44000000000001,
+      "end": 99.52000000000001,
+      "text": " based on these days. And the last part of this presentation, I'm going to get to a framework"
+    },
+    {
+      "id": 16,
+      "start": 99.52000000000001,
+      "end": 104.56,
+      "text": " and I'm going to get to a tool that I created to that you can start using immediately. So"
+    },
+    {
+      "id": 17,
+      "start": 104.56,
+      "end": 108.8,
+      "text": " something very concrete, easy to install, they can really transform the brain in the work."
+    },
+    {
+      "id": 18,
+      "start": 108.8,
+      "end": 114.64,
+      "text": " And you're going to live with the, with a plan, with a plan to implement this yourself. So"
+    },
+    {
+      "id": 19,
+      "start": 114.64,
+      "end": 122.4,
+      "text": " let's get started with the problem with the chat. So again, I call this Gen 1 or conversational AI"
+    },
+    {
+      "id": 20,
+      "start": 122.4,
+      "end": 128.8,
+      "text": " or generative AI. It's kind of what everybody's been using now. You ask a question to judge"
+    },
+    {
+      "id": 21,
+      "start": 128.88000000000002,
+      "end": 136.4,
+      "text": " you to get an answer, copy, paste, repeat. You do all this work. It's very manual and it's very"
+    },
+    {
+      "id": 22,
+      "start": 136.4,
+      "end": 143.36,
+      "text": " magical at the beginning. It's very exciting. But you start becoming a bottleneck. You start"
+    },
+    {
+      "id": 23,
+      "start": 143.36,
+      "end": 149.68,
+      "text": " losing the context in the sessions in the conversation that you have. Sometimes you have some chat"
+    },
+    {
+      "id": 24,
+      "start": 149.68,
+      "end": 156.8,
+      "text": " histories, but it's, at least I get the feeling that my work is kind of trapped somewhere in a place"
+    },
+    {
+      "id": 25,
+      "start": 156.8,
+      "end": 161.68,
+      "text": " there's not an easy accessible to me. It's a little bit of a context that I leave inside the"
+    },
+    {
+      "id": 26,
+      "start": 161.68,
+      "end": 167.52,
+      "text": " sort of judging between the structure. The other thing is that it's not built in. It's not"
+    },
+    {
+      "id": 27,
+      "start": 167.52,
+      "end": 173.20000000000002,
+      "text": " compounding my work. It's really one shot of time. There is no memory across. There is no learning"
+    },
+    {
+      "id": 28,
+      "start": 173.20000000000002,
+      "end": 179.52,
+      "text": " on that litigation. And this has been kind of the reality today. What I've seen the shift, and again,"
+    },
+    {
+      "id": 29,
+      "start": 180.48000000000002,
+      "end": 185.60000000000002,
+      "text": " as a technical person, been working in this into software development. I see this"
+    },
+    {
+      "id": 30,
+      "start": 186.23999999999998,
+      "end": 193.51999999999998,
+      "text": " first hand by building solutions. We are shifting now in the new world where we go from chat to"
+    },
+    {
+      "id": 31,
+      "start": 193.51999999999998,
+      "end": 200.4,
+      "text": " delegation. And this world is really enabled by the evolution of the technology into this layer,"
+    },
+    {
+      "id": 32,
+      "start": 200.4,
+      "end": 206.07999999999998,
+      "text": " which I call the agentic layer. So if you wanted to call this generation two,"
+    },
+    {
+      "id": 33,
+      "start": 207.04000000000002,
+      "end": 215.28,
+      "text": " a GNI is about agentic tools. And so in this context, the AI, it doesn't just give you"
+    },
+    {
+      "id": 34,
+      "start": 215.28,
+      "end": 220.96,
+      "text": " answers. The AI and the agents, in particular, they actually take actions. They can use tools. They"
+    },
+    {
+      "id": 35,
+      "start": 220.96,
+      "end": 225.84,
+      "text": " can access your files. They can edit documents. They can pull the context of your work."
+    },
+    {
+      "id": 36,
+      "start": 226.96,
+      "end": 232.48000000000002,
+      "text": " And really, they work with you together with you in a collaborative way, not just the"
+    },
+    {
+      "id": 37,
+      "start": 232.56000000000003,
+      "end": 239.60000000000002,
+      "text": " providing answer as we're doing the previous generation. So this is, again, this has been happening"
+    },
+    {
+      "id": 38,
+      "start": 239.60000000000002,
+      "end": 245.84000000000003,
+      "text": " for technical roles, but more importantly, it's happening now for not technical work. And you"
+    },
+    {
+      "id": 39,
+      "start": 245.84000000000003,
+      "end": 251.76000000000002,
+      "text": " start becoming, instead of an executor, somebody that you need to write a report or you need to create"
+    },
+    {
+      "id": 40,
+      "start": 251.76000000000002,
+      "end": 258.48,
+      "text": " a document that does that with the assistant of an AI chatbot. You start to orchestrate it and"
+    },
+    {
+      "id": 41,
+      "start": 258.56,
+      "end": 265.68,
+      "text": " become in sort of an architect where really you coordinate teams of agents that do the work for you."
+    },
+    {
+      "id": 42,
+      "start": 267.6,
+      "end": 272.72,
+      "text": " I want to spend a couple of minutes on this concept, which I wrote a paper about this, an article"
+    },
+    {
+      "id": 43,
+      "start": 272.72,
+      "end": 278.64000000000004,
+      "text": " about this. And it's really important to understand the different layers. And I made the analogy here"
+    },
+    {
+      "id": 44,
+      "start": 278.64000000000004,
+      "end": 284.16,
+      "text": " if you were to build a house. Of course, you're going to start from the foundation like choosing the"
+    },
+    {
+      "id": 45,
+      "start": 284.16,
+      "end": 290.16,
+      "text": " quality material. That's the layer one at the bottom. And this layer in an agentic work is provided"
+    },
+    {
+      "id": 46,
+      "start": 290.16,
+      "end": 298.40000000000003,
+      "text": " by the foundational model, JGPT or GPT-5, KLO, Gemini, Opus. Those are models that very few"
+    },
+    {
+      "id": 47,
+      "start": 298.40000000000003,
+      "end": 305.52000000000004,
+      "text": " companies have the capacity to invest enough money and energy and time to actually build this"
+    },
+    {
+      "id": 48,
+      "start": 305.52000000000004,
+      "end": 310.96000000000004,
+      "text": " foundation model. And they provide the role intelligence, if you will. They get smarter every day."
+    },
+    {
+      "id": 49,
+      "start": 311.68,
+      "end": 317.28,
+      "text": " But you don't have to do anything about that. So you kind of inherited that by selecting and using"
+    },
+    {
+      "id": 50,
+      "start": 317.28,
+      "end": 323.76,
+      "text": " some of these models. It's a very important layer, but that's not sufficient. The second layer is"
+    },
+    {
+      "id": 51,
+      "start": 323.76,
+      "end": 329.59999999999997,
+      "text": " the one that has been emerging over the past 12, 12, 15 months, I think. And this is really the"
+    },
+    {
+      "id": 52,
+      "start": 329.59999999999997,
+      "end": 336.0,
+      "text": " agentic layer. Again, there's some companies that are building this for you. And although you could"
+    },
+    {
+      "id": 53,
+      "start": 336.0,
+      "end": 342.32,
+      "text": " build this for yourself, but this of course requires technical knowledge. Now, to this day, you"
+    },
+    {
+      "id": 54,
+      "start": 342.32,
+      "end": 347.52,
+      "text": " will start having tools that have this layer built in. And this agentic layer is like having a skill"
+    },
+    {
+      "id": 55,
+      "start": 347.52,
+      "end": 356.4,
+      "text": " contractor. Somebody that knows what to do in each situation, the circumstances, how they execute"
+    },
+    {
+      "id": 56,
+      "start": 356.4,
+      "end": 362.4,
+      "text": " the plans, how they validate the plans. And so this is really a new layer and it's something that"
+    },
+    {
+      "id": 57,
+      "start": 363.36,
+      "end": 369.52000000000004,
+      "text": " you need to learn how to deal with and how to manage this later. Now, the important piece,"
+    },
+    {
+      "id": 58,
+      "start": 369.52000000000004,
+      "end": 374.88000000000005,
+      "text": " which is really the top one, it's a layer three, what I call the context layer, this is really,"
+    },
+    {
+      "id": 59,
+      "start": 374.88000000000005,
+      "end": 382.64000000000004,
+      "text": " it's very specific to your activity, to your work. And this is also where you bring the competitive"
+    },
+    {
+      "id": 60,
+      "start": 382.64000000000004,
+      "end": 388.64000000000004,
+      "text": " advantage in this world where so many tasks, so many skills that can be commoditized by the AI."
+    },
+    {
+      "id": 61,
+      "start": 389.36,
+      "end": 394.64,
+      "text": " Those are the project rules, the pattern, the knowledge. It's like sort of the architectural plan,"
+    },
+    {
+      "id": 62,
+      "start": 394.64,
+      "end": 398.88,
+      "text": " what kind of house you want to build. And this is really where you're going to shine, this is something"
+    },
+    {
+      "id": 63,
+      "start": 398.88,
+      "end": 406.08,
+      "text": " that it's really to take away from you. This is a little bit of a mental framework that I've"
+    },
+    {
+      "id": 64,
+      "start": 406.08,
+      "end": 412.24,
+      "text": " been using so that you understand that there's different layers. The context engineering, the"
+    },
+    {
+      "id": 65,
+      "start": 412.24,
+      "end": 419.36,
+      "text": " top context layer is very important because without contents, the AI is making generic decisions,"
+    },
+    {
+      "id": 66,
+      "start": 419.92,
+      "end": 424.56,
+      "text": " there's no preference, memory about your preference is the every session starts from scratch,"
+    },
+    {
+      "id": 67,
+      "start": 424.56,
+      "end": 431.28000000000003,
+      "text": " you kind of repeat yourself constantly because if you don't provide the context to the AI,"
+    },
+    {
+      "id": 68,
+      "start": 431.28000000000003,
+      "end": 436.8,
+      "text": " to the tools, the elements, that's a little bit the first, first reading experience that you've"
+    },
+    {
+      "id": 69,
+      "start": 436.8,
+      "end": 442.16,
+      "text": " got experience, you probably most of you have gone through this kind of experience. When you bring"
+    },
+    {
+      "id": 70,
+      "start": 442.16,
+      "end": 448.88,
+      "text": " the context into the picture, now the AI starts to understand the way you are working, you start to"
+    },
+    {
+      "id": 71,
+      "start": 448.88,
+      "end": 455.6,
+      "text": " understand, you kind of build some memory that it's a context essentially that the AI can lash on"
+    },
+    {
+      "id": 72,
+      "start": 455.6,
+      "end": 463.68,
+      "text": " to actually do work in a continuous way for a longer time and really build some of the previous"
+    },
+    {
+      "id": 73,
+      "start": 463.68,
+      "end": 468.96,
+      "text": " project or previous work that gets smarter over time. It's something that you can accumulate."
+    },
+    {
+      "id": 74,
+      "start": 469.84000000000003,
+      "end": 475.2,
+      "text": " This is really the layer where you create a value and it's project specific and it can be copied,"
+    },
+    {
+      "id": 75,
+      "start": 475.2,
+      "end": 481.68,
+      "text": " it's really something that you where you have a key differentiator. Now like I said before,"
+    },
+    {
+      "id": 76,
+      "start": 481.68,
+      "end": 487.52,
+      "text": " this experience, the way the reason why I perceive this transition is because this is happening"
+    },
+    {
+      "id": 77,
+      "start": 487.59999999999997,
+      "end": 494.88,
+      "text": " in the software development environment. I have a maven course where I teach a method so that"
+    },
+    {
+      "id": 78,
+      "start": 494.88,
+      "end": 500.88,
+      "text": " software developers can use these multiple agents to build their code so they're a straight multiple"
+    },
+    {
+      "id": 79,
+      "start": 500.88,
+      "end": 507.91999999999996,
+      "text": " agents. I've seen the transformation of the software development work happening in real time will"
+    },
+    {
+      "id": 80,
+      "start": 507.92,
+      "end": 516.72,
+      "text": " pass the two or three years, right? And so in 2024, 25, we've seen this happening in the development"
+    },
+    {
+      "id": 81,
+      "start": 516.72,
+      "end": 522.64,
+      "text": " environment. So we started to see tools like cursor, github, co-pilot, they're really transformed"
+    },
+    {
+      "id": 82,
+      "start": 522.64,
+      "end": 528.96,
+      "text": " the way people are doing coding. Engineers get a lot of productivity, the multi-agent systems become"
+    },
+    {
+      "id": 83,
+      "start": 528.96,
+      "end": 535.6,
+      "text": " in standards, but really so far it's something that only the software development and technical people"
+    },
+    {
+      "id": 84,
+      "start": 535.6,
+      "end": 541.2,
+      "text": " have been taking advantage of. Now the question is really what if this was wasn't just for developers,"
+    },
+    {
+      "id": 85,
+      "start": 541.2,
+      "end": 548.0,
+      "text": " what if this approach, this three layer framework could actually be applicable to any knowledge work?"
+    },
+    {
+      "id": 86,
+      "start": 548.96,
+      "end": 554.5600000000001,
+      "text": " And this is where I think is getting excited. In 2026, we started very strong on this idea and"
+    },
+    {
+      "id": 87,
+      "start": 554.5600000000001,
+      "end": 561.28,
+      "text": " bringing here a couple of proof points. You might have read about the legal team at Anthropic,"
+    },
+    {
+      "id": 88,
+      "start": 561.28,
+      "end": 566.72,
+      "text": " Anthropic is one of the companies that built one of these most powerful elements and models,"
+    },
+    {
+      "id": 89,
+      "start": 567.68,
+      "end": 575.12,
+      "text": " but they actually tested inside their house that non-coder built the energy portfolio using"
+    },
+    {
+      "id": 90,
+      "start": 575.12,
+      "end": 581.36,
+      "text": " the same tools, same structure that the code would do. And so this is only a bit of the story,"
+    },
+    {
+      "id": 91,
+      "start": 581.36,
+      "end": 586.24,
+      "text": " so they built this workflow using a cloud code, even if they didn't know how to code. And they cut"
+    },
+    {
+      "id": 92,
+      "start": 586.32,
+      "end": 594.32,
+      "text": " marketing review from two, three days to under 24 hours. And this is again for a non-technical legal team"
+    },
+    {
+      "id": 93,
+      "start": 594.32,
+      "end": 604.96,
+      "text": " controlling. This is proof point number two. I wanted to, you know, it's about cloud work."
+    },
+    {
+      "id": 94,
+      "start": 604.96,
+      "end": 611.44,
+      "text": " You might have heard about this, this is another product that Anthropic is released in January,"
+    },
+    {
+      "id": 95,
+      "start": 611.44,
+      "end": 615.12,
+      "text": " and it's built on the cloud code foundation as designed for non-technical users."
+    },
+    {
+      "id": 96,
+      "start": 616.0,
+      "end": 623.2800000000001,
+      "text": " And the nice thing is that this mode of using the same Argentic harness, it helps you work with your"
+    },
+    {
+      "id": 97,
+      "start": 623.2800000000001,
+      "end": 628.1600000000001,
+      "text": " files, with your folders, with your documents, and you just give your structure in plain English"
+    },
+    {
+      "id": 98,
+      "start": 628.1600000000001,
+      "end": 635.9200000000001,
+      "text": " to these agents that use it underneath. So essentially, you know, full expense reports for"
+    },
+    {
+      "id": 99,
+      "start": 635.9200000000001,
+      "end": 640.72,
+      "text": " users starting from photos. You can just put a photo and then do the work for you. You can write"
+    },
+    {
+      "id": 100,
+      "start": 640.72,
+      "end": 646.48,
+      "text": " reports from some of the nodes, maybe listen to some of the meetings and from the transcription"
+    },
+    {
+      "id": 101,
+      "start": 646.48,
+      "end": 655.12,
+      "text": " creates. So it just helps people, is a code working tool that helps non-technical people to"
+    },
+    {
+      "id": 102,
+      "start": 655.12,
+      "end": 663.44,
+      "text": " take in most advantage of this Argentic AI working, working approach. So you can organize folders,"
+    },
+    {
+      "id": 103,
+      "start": 663.44,
+      "end": 667.9200000000001,
+      "text": " you can clean up your desktop. It's really doing all these things, you know, you don't need to"
+    },
+    {
+      "id": 104,
+      "start": 667.92,
+      "end": 673.76,
+      "text": " code, just instruct or request the agents to do this. And again, this is the signal that I was"
+    },
+    {
+      "id": 105,
+      "start": 673.76,
+      "end": 678.7199999999999,
+      "text": " mentioning that now this way of working or concentrating agent that do the work for you,"
+    },
+    {
+      "id": 106,
+      "start": 678.7199999999999,
+      "end": 684.24,
+      "text": " is something that is going beyond taking the old reality, right. Most recently, actually,"
+    },
+    {
+      "id": 107,
+      "start": 684.24,
+      "end": 691.28,
+      "text": " this very month in February, OpenEye just launched Frontier. This is another signal that AI is really"
+    },
+    {
+      "id": 108,
+      "start": 691.28,
+      "end": 698.8,
+      "text": " betting big on Argentic AI in the enterprise for real building a genetic solution that helps"
+    },
+    {
+      "id": 109,
+      "start": 698.8,
+      "end": 704.8,
+      "text": " workers in enterprise, enterprise environment to do their jobs. And so this is a signal that is"
+    },
+    {
+      "id": 110,
+      "start": 704.8,
+      "end": 711.76,
+      "text": " also very important. And it's been applied in many, many different verticals from manufacturing,"
+    },
+    {
+      "id": 111,
+      "start": 711.76,
+      "end": 719.04,
+      "text": " financial firms, energy, and so forth. So those are three signals that I think that kind of"
+    },
+    {
+      "id": 112,
+      "start": 719.04,
+      "end": 724.88,
+      "text": " proved the point that I was trying to make about the shift in the way we're working with AI in an"
+    },
+    {
+      "id": 113,
+      "start": 724.88,
+      "end": 733.5999999999999,
+      "text": " Argentic fashion. Again, the transition in the market, it's really strong. And this is going to"
+    },
+    {
+      "id": 114,
+      "start": 733.5999999999999,
+      "end": 739.28,
+      "text": " impact, I think, significantly, all the productivity tools that we use today, because all those tools"
+    },
+    {
+      "id": 115,
+      "start": 739.28,
+      "end": 746.48,
+      "text": " work, Excel, PowerPoint, all those are applications that have been built by big companies for"
+    },
+    {
+      "id": 116,
+      "start": 747.28,
+      "end": 751.76,
+      "text": " users, for human users to work. And so they have user interfaces that"
+    },
+    {
+      "id": 117,
+      "start": 752.96,
+      "end": 757.6,
+      "text": " expect to have a human on the other side. Now, the world is going to change. It's actually changing"
+    },
+    {
+      "id": 118,
+      "start": 757.6,
+      "end": 762.5600000000001,
+      "text": " already right now. And the agents are doing the work, and you are going to orchestrate the agent to"
+    },
+    {
+      "id": 119,
+      "start": 762.5600000000001,
+      "end": 767.76,
+      "text": " do the work. So this tools essentially becoming visible to you as a human, you don't have to"
+    },
+    {
+      "id": 120,
+      "start": 768.32,
+      "end": 774.88,
+      "text": " drop and drag or click or execute something on a user interface. You can delegate the work to the"
+    },
+    {
+      "id": 121,
+      "start": 774.88,
+      "end": 779.92,
+      "text": " agents. This is a dramatic shift. This is a very big shift, and it's going to have a huge impact"
+    },
+    {
+      "id": 122,
+      "start": 779.92,
+      "end": 784.32,
+      "text": " in the entire, you know, software productivity tools for enterprise, I think."
+    },
+    {
+      "id": 123,
+      "start": 785.76,
+      "end": 793.4399999999999,
+      "text": " This is again, the promise, again, of this new, agentic world. Now, one thing that I wanted to"
+    },
+    {
+      "id": 124,
+      "start": 793.4399999999999,
+      "end": 798.96,
+      "text": " serve that I've been thinking about is that because this transition started with software development,"
+    },
+    {
+      "id": 125,
+      "start": 799.44,
+      "end": 805.2,
+      "text": " the tools that are most powerful today are cursor or folder for pilot, and those are tools that"
+    },
+    {
+      "id": 126,
+      "start": 805.2,
+      "end": 811.0400000000001,
+      "text": " are built for developers. So if you, I don't know if many of you have been using, of course,"
+    },
+    {
+      "id": 127,
+      "start": 811.0400000000001,
+      "end": 815.84,
+      "text": " if you download it, it's in the interface. I'm going to show you later to show you the tool that"
+    },
+    {
+      "id": 128,
+      "start": 815.84,
+      "end": 821.52,
+      "text": " I'm going to present. It can be intimidated because there's so many things that are"
+    },
+    {
+      "id": 129,
+      "start": 822.24,
+      "end": 827.44,
+      "text": " designed and thought for software developers. And that's not something that the average"
+    },
+    {
+      "id": 130,
+      "start": 827.6,
+      "end": 835.6,
+      "text": " knowledge worker is a customer, or it's at ease with. Now, if you think about it and I read a post,"
+    },
+    {
+      "id": 131,
+      "start": 835.6,
+      "end": 841.84,
+      "text": " which is by another maven instructor, which is accelerated, really demystifying a little bit about"
+    },
+    {
+      "id": 132,
+      "start": 841.84,
+      "end": 847.7600000000001,
+      "text": " this challenge, if you will, of this problem. And if you think about it, and you're going to see"
+    },
+    {
+      "id": 133,
+      "start": 847.7600000000001,
+      "end": 853.2800000000001,
+      "text": " in the demo cursor essentially, it's like having multiple tools like a file explorer. You can navigate"
+    },
+    {
+      "id": 134,
+      "start": 853.4399999999999,
+      "end": 859.8399999999999,
+      "text": " your folders, then your files in your computer. You can write, and you have a text editor, maybe today"
+    },
+    {
+      "id": 135,
+      "start": 859.8399999999999,
+      "end": 865.92,
+      "text": " you're doing a world environment, but there you can use the same things that you do maybe on a"
+    },
+    {
+      "id": 136,
+      "start": 865.92,
+      "end": 872.8,
+      "text": " notion page using markdown. And then you have an AI chat that brings the agents and the LLMs and"
+    },
+    {
+      "id": 137,
+      "start": 872.8,
+      "end": 881.12,
+      "text": " the models underneath for you to actually instruct and do the work. It's not very complicated at the"
+    },
+    {
+      "id": 138,
+      "start": 881.44,
+      "end": 886.88,
+      "text": " day. You can use, of course, for developing code, but that's probably for very powerful users."
+    },
+    {
+      "id": 139,
+      "start": 887.76,
+      "end": 892.88,
+      "text": " But right now, think about this first interface, just as something that it's very easy. Basically,"
+    },
+    {
+      "id": 140,
+      "start": 892.88,
+      "end": 898.88,
+      "text": " three things you already do today, they're just combining one into face. And so what I thought about"
+    },
+    {
+      "id": 141,
+      "start": 898.88,
+      "end": 904.0,
+      "text": " is, okay, we have these tools. Today, they're not designed, although there are companies that start"
+    },
+    {
+      "id": 142,
+      "start": 904.0,
+      "end": 910.48,
+      "text": " thinking about this, they're not designed for non-developers. But how do we take advantage of the"
+    },
+    {
+      "id": 143,
+      "start": 911.12,
+      "end": 915.6,
+      "text": " tools that we have today, the cursor, for example, in this case, that I'm going to show you? So"
+    },
+    {
+      "id": 144,
+      "start": 915.6,
+      "end": 921.52,
+      "text": " I thought, how can we bridge this gap? How do we make something accessible to really everybody?"
+    },
+    {
+      "id": 145,
+      "start": 922.08,
+      "end": 929.84,
+      "text": " And this is where I wanted to present you the small project I did this month, which I called"
+    },
+    {
+      "id": 146,
+      "start": 929.84,
+      "end": 935.2,
+      "text": " NOVA. It's a crew builder. Essentially, it's an agetic work crew builder. Essentially,"
+    },
+    {
+      "id": 147,
+      "start": 935.9200000000001,
+      "end": 941.12,
+      "text": " something you're going to show you how to install in your machine. And it actually is"
+    },
+    {
+      "id": 148,
+      "start": 942.24,
+      "end": 946.4000000000001,
+      "text": " a wizard, if you will, that can actually build a crew for you, depending on the job that you do."
+    },
+    {
+      "id": 149,
+      "start": 947.12,
+      "end": 950.88,
+      "text": " It sounds a little bit magic, and it is a little bit magic if you think about it. I'll go"
+    },
+    {
+      "id": 150,
+      "start": 950.88,
+      "end": 958.96,
+      "text": " you show you how it works. So what does NOVA do? NOVA really helps you to build this personal"
+    },
+    {
+      "id": 151,
+      "start": 958.96,
+      "end": 964.32,
+      "text": " team of AI systems, tell you to do your job, whatever job you're doing. You don't have to know"
+    },
+    {
+      "id": 152,
+      "start": 964.32,
+      "end": 970.08,
+      "text": " code, but you control, you stay in control. Once you have built your team of assistants,"
+    },
+    {
+      "id": 153,
+      "start": 970.08,
+      "end": 974.48,
+      "text": " you start doing the work, delegating tasks, and having them do the work for you."
+    },
+    {
+      "id": 154,
+      "start": 975.36,
+      "end": 981.6800000000001,
+      "text": " So first thing you describe the role, kind of the challenge of your context a little bit, NOVA,"
+    },
+    {
+      "id": 155,
+      "start": 981.7600000000001,
+      "end": 988.48,
+      "text": " the wizard designed the crew of specialists. And each AI persona has a clear role"
+    },
+    {
+      "id": 156,
+      "start": 989.44,
+      "end": 996.0000000000001,
+      "text": " that does specific tasks. And it works inside cursor, because right now it's kind of the simplest"
+    },
+    {
+      "id": 157,
+      "start": 996.0000000000001,
+      "end": 1003.7600000000001,
+      "text": " way to get started, because cursor brings, like I said before, a number of tools together in one"
+    },
+    {
+      "id": 158,
+      "start": 1003.7600000000001,
+      "end": 1009.9200000000001,
+      "text": " interface, but most importantly, it brings all the agentic layer. It's a very advanced agentic layer"
+    },
+    {
+      "id": 159,
+      "start": 1010.0000000000001,
+      "end": 1016.5600000000001,
+      "text": " and the LLAMs. It basically kind of don't need to know what is the best LLAM to do this job, or that"
+    },
+    {
+      "id": 160,
+      "start": 1016.5600000000001,
+      "end": 1022.1600000000001,
+      "text": " job, or how much, how many talk is I'm using now, how much is this is going to cost me? You have a very"
+    },
+    {
+      "id": 161,
+      "start": 1022.1600000000001,
+      "end": 1027.44,
+      "text": " structure, a very control environment, something that you can easily use, kind of as distracting,"
+    },
+    {
+      "id": 162,
+      "start": 1027.44,
+      "end": 1031.76,
+      "text": " the layer one and layer two of the of the three layer framework that I was talking about, and"
+    },
+    {
+      "id": 163,
+      "start": 1031.76,
+      "end": 1036.5600000000002,
+      "text": " forcing, focusing on your own job. The other thing that I like about this, like I said before,"
+    },
+    {
+      "id": 164,
+      "start": 1036.56,
+      "end": 1041.6799999999998,
+      "text": " it's really, everything stays in your machine. All the documents, the artifacts that the agents"
+    },
+    {
+      "id": 165,
+      "start": 1041.6799999999998,
+      "end": 1046.0,
+      "text": " are creating, they stay in your folder, you can organize them the way you want, you can ask the agent"
+    },
+    {
+      "id": 166,
+      "start": 1046.0,
+      "end": 1053.6,
+      "text": " to change the organization to update them, to keep track of the plan, and really work as if you had"
+    },
+    {
+      "id": 167,
+      "start": 1053.6,
+      "end": 1061.6,
+      "text": " a small team working for you inside the cursor ID. That's a little bit about how it works. And again,"
+    },
+    {
+      "id": 168,
+      "start": 1061.6,
+      "end": 1069.1999999999998,
+      "text": " it's powerful because you get the latest and greatest LLAMs, you don't have to choose any of those."
+    },
+    {
+      "id": 169,
+      "start": 1070.56,
+      "end": 1076.48,
+      "text": " Tomorrow, you know, the last week, the topic released on August 4.6 is amazing,"
+    },
+    {
+      "id": 170,
+      "start": 1077.36,
+      "end": 1085.9199999999998,
+      "text": " OpenAI released GPT 5.3. You don't need to know necessarily everything is going on behind the scenes,"
+    },
+    {
+      "id": 171,
+      "start": 1085.92,
+      "end": 1092.24,
+      "text": " you know, the tool picks the right, the right agent for you, the right, LLAMs for you, I should say."
+    },
+    {
+      "id": 172,
+      "start": 1092.8000000000002,
+      "end": 1101.8400000000001,
+      "text": " And it also has a way to automatically select based on the task that you need to do. And so because"
+    },
+    {
+      "id": 173,
+      "start": 1101.8400000000001,
+      "end": 1106.4,
+      "text": " the cost of the tokens changed from time, because the capability of the LLAMs changed over time,"
+    },
+    {
+      "id": 174,
+      "start": 1106.96,
+      "end": 1112.16,
+      "text": " it's a little bit complex to keep in your mind, or even in a cheat sheet, a little bit of the rules"
+    },
+    {
+      "id": 175,
+      "start": 1112.4,
+      "end": 1117.6000000000001,
+      "text": " which models to use. Now, using the tool like this, you don't have to think about this. You can"
+    },
+    {
+      "id": 176,
+      "start": 1117.6000000000001,
+      "end": 1123.44,
+      "text": " put it in an outer mode, and the selections don't automatically. For you, in order to maximize the"
+    },
+    {
+      "id": 177,
+      "start": 1123.44,
+      "end": 1129.52,
+      "text": " number of tokens that you use every month within your plan, you can use the free plan if you want."
+    },
+    {
+      "id": 178,
+      "start": 1129.52,
+      "end": 1134.24,
+      "text": " That's a small limit that you have, or you can use the $20 per month in the cursor,"
+    },
+    {
+      "id": 179,
+      "start": 1134.24,
+      "end": 1139.6000000000001,
+      "text": " and you can do plenty of work with that. With the $20, you'll never exceed that if you don't want it."
+    },
+    {
+      "id": 180,
+      "start": 1140.16,
+      "end": 1146.2400000000002,
+      "text": " So this will be about the nice thing about working with the cursor. I've been doing this again"
+    },
+    {
+      "id": 181,
+      "start": 1146.2400000000002,
+      "end": 1154.0800000000002,
+      "text": " for software development, but also more and more for non-technical work. And again, the work"
+    },
+    {
+      "id": 182,
+      "start": 1154.0800000000002,
+      "end": 1160.2400000000002,
+      "text": " stay local, you approve everything, you have a team of specialized agents, and all the work"
+    },
+    {
+      "id": 183,
+      "start": 1160.2400000000002,
+      "end": 1166.3200000000002,
+      "text": " compounds and the knowledge compounds so that not only you can progress, but also the agent that"
+    },
+    {
+      "id": 184,
+      "start": 1166.56,
+      "end": 1172.72,
+      "text": " you understand the context of your data nature. So this is a little bit about the novel."
+    },
+    {
+      "id": 185,
+      "start": 1175.28,
+      "end": 1181.84,
+      "text": " How does it do that? So this agent that kind of builds this crew of agents for you,"
+    },
+    {
+      "id": 186,
+      "start": 1181.84,
+      "end": 1188.6399999999999,
+      "text": " essentially it goes through a four-step process. So the first thing you're going to tell the novel"
+    },
+    {
+      "id": 187,
+      "start": 1188.6399999999999,
+      "end": 1195.84,
+      "text": " is what is your job. And now, once you have input of that, then nobody identifies what the"
+    },
+    {
+      "id": 188,
+      "start": 1195.84,
+      "end": 1202.48,
+      "text": " key work activities uses under international standards to actually map and understand what key"
+    },
+    {
+      "id": 189,
+      "start": 1202.48,
+      "end": 1208.9599999999998,
+      "text": " activities are associated with that particular job. And so that's defining the role, that's the"
+    },
+    {
+      "id": 190,
+      "start": 1208.9599999999998,
+      "end": 1214.1599999999999,
+      "text": " step number one. The step number two is defining the task, and so it breaks down the task that"
+    },
+    {
+      "id": 191,
+      "start": 1214.1599999999999,
+      "end": 1221.28,
+      "text": " are required in order to do the job, and it really finds opportunity to actually build an assist"
+    },
+    {
+      "id": 192,
+      "start": 1221.28,
+      "end": 1227.84,
+      "text": " you with the AI agents. Once you define, you can actually tell Mova, if you're okay with the"
+    },
+    {
+      "id": 193,
+      "start": 1227.84,
+      "end": 1234.6399999999999,
+      "text": " plan, with the list of tasks, that your crew is going to execute, but maybe you want to delete some,"
+    },
+    {
+      "id": 194,
+      "start": 1234.6399999999999,
+      "end": 1240.32,
+      "text": " maybe you want to add some, you can do that interactly just talking to the agents. And once you"
+    },
+    {
+      "id": 195,
+      "start": 1240.32,
+      "end": 1246.32,
+      "text": " approve the plan, then crew, then Mova just creep builds the crew and design the crew, and maybe just"
+    },
+    {
+      "id": 196,
+      "start": 1247.28,
+      "end": 1253.6,
+      "text": " two, three, two, seven, maximum seven teammates, if you will, that really has a specialized role,"
+    },
+    {
+      "id": 197,
+      "start": 1253.6,
+      "end": 1260.08,
+      "text": " and has clear boundary responsibilities, that is going to start working alongside you inside"
+    },
+    {
+      "id": 198,
+      "start": 1260.08,
+      "end": 1266.32,
+      "text": " this interface. Once you have that, the team, then basically you have this team and you get"
+    },
+    {
+      "id": 199,
+      "start": 1266.32,
+      "end": 1274.6399999999999,
+      "text": " to start working. You can show you in a little bit about, actually, why don't I, this is an"
+    },
+    {
+      "id": 200,
+      "start": 1274.64,
+      "end": 1279.3600000000001,
+      "text": " implementation step, I'm going to show you this later. So what do I do, this, what do I know,"
+    },
+    {
+      "id": 201,
+      "start": 1280.0,
+      "end": 1290.72,
+      "text": " straight to the interface, and let's see."
+    },
+    {
+      "id": 202,
+      "start": 1295.1200000000001,
+      "end": 1301.44,
+      "text": " Okay, so this screen is a black screen, I mean dark mode, I think about changing the background,"
+    },
+    {
+      "id": 203,
+      "start": 1301.44,
+      "end": 1308.24,
+      "text": " but I hope you can see, maybe I can do a little bit of zoom here, it's a little bit simple."
+    },
+    {
+      "id": 204,
+      "start": 1309.2,
+      "end": 1315.28,
+      "text": " So this is actually the cursor interface, and like I said, it can be intimidated, there's a lot"
+    },
+    {
+      "id": 205,
+      "start": 1315.28,
+      "end": 1320.24,
+      "text": " of different things, but if you wanted to think about it, see there's two bars here that"
+    },
+    {
+      "id": 206,
+      "start": 1320.32,
+      "end": 1330.08,
+      "text": " separates these three sections. So this one here is on the left, is the file explorer, if you"
+    },
+    {
+      "id": 207,
+      "start": 1330.8,
+      "end": 1338.16,
+      "text": " know, this is a now is my project name, it's my call mine over project, and it's empty, nothing here,"
+    },
+    {
+      "id": 208,
+      "start": 1338.16,
+      "end": 1343.76,
+      "text": " right? So I basically started a new project, and I want to install Nova in this environment."
+    },
+    {
+      "id": 209,
+      "start": 1344.96,
+      "end": 1350.0,
+      "text": " So here you have the file explorer, here you're going to see the editors, you can type, you can write"
+    },
+    {
+      "id": 210,
+      "start": 1350.0,
+      "end": 1356.32,
+      "text": " things, and on this side you have the interaction with the agents. You can actually open multiple"
+    },
+    {
+      "id": 211,
+      "start": 1356.8,
+      "end": 1364.56,
+      "text": " window, so you can actually talk to multiple agents at the same time, and you can see here the agents"
+    },
+    {
+      "id": 212,
+      "start": 1364.56,
+      "end": 1371.2,
+      "text": " now are in auto mode, and I leave any note about for the reasons that I mentioned before, you get the"
+    },
+    {
+      "id": 213,
+      "start": 1371.2,
+      "end": 1379.44,
+      "text": " benefits of a number of advanced tools to select the best model for the task that the agents inferred."
+    },
+    {
+      "id": 214,
+      "start": 1380.0,
+      "end": 1384.64,
+      "text": " But if you want, you can actually pick any model, you cannot model, you can have local models,"
+    },
+    {
+      "id": 215,
+      "start": 1384.64,
+      "end": 1391.44,
+      "text": " it's pretty complex and comprehensive. So to escape it out of for now, I'm not going to go into"
+    },
+    {
+      "id": 216,
+      "start": 1391.44,
+      "end": 1396.24,
+      "text": " the interface to define, you know, to describe our course of work. I'm just going to work"
+    },
+    {
+      "id": 217,
+      "start": 1396.24,
+      "end": 1403.2,
+      "text": " through the steps that I would do, if I wanted to, in this project environment, install Nova"
+    },
+    {
+      "id": 218,
+      "start": 1403.2,
+      "end": 1409.04,
+      "text": " and start working with it, okay? And so the first thing I'm going to do, I'm going to pick"
+    },
+    {
+      "id": 219,
+      "start": 1410.56,
+      "end": 1420.88,
+      "text": " the installation in a very simple way, which is essentially, let me see here, I'm going to drag,"
+    },
+    {
+      "id": 220,
+      "start": 1420.88,
+      "end": 1427.84,
+      "text": " I'm going to select some files that I have installed in my machine already, and you can download this"
+    },
+    {
+      "id": 221,
+      "start": 1427.84,
+      "end": 1433.6,
+      "text": " from a GitHub repo, I'll show you later now, but here I just drag and drop, I have another window,"
+    },
+    {
+      "id": 222,
+      "start": 1433.6,
+      "end": 1439.6,
+      "text": " but you can see here now, I'm just going to copy this into this folder, right? Of course, you can do"
+    },
+    {
+      "id": 223,
+      "start": 1440.0800000000002,
+      "end": 1445.0400000000002,
+      "text": " this in your machine with, you know, traditional file executor, but this was very easy just to drag,"
+    },
+    {
+      "id": 224,
+      "start": 1446.2400000000002,
+      "end": 1453.3600000000001,
+      "text": " and basically, you know, the artifacts here in this window, and what do you have here now is actually"
+    },
+    {
+      "id": 225,
+      "start": 1453.3600000000001,
+      "end": 1460.2400000000002,
+      "text": " the entire Nova builder that you already have it installed in this environment, that's all,"
+    },
+    {
+      "id": 226,
+      "start": 1460.2400000000002,
+      "end": 1467.1200000000001,
+      "text": " that's all I had to do, I had to drag this folders and files, and I can have here, I can select"
+    },
+    {
+      "id": 227,
+      "start": 1467.2,
+      "end": 1474.48,
+      "text": " read me, I can see here, this is a marked down document, if you want, I can open and preview,"
+    },
+    {
+      "id": 228,
+      "start": 1474.48,
+      "end": 1479.92,
+      "text": " it's a little bit easier to read, and I can read what this document says, right? It gives you another"
+    },
+    {
+      "id": 229,
+      "start": 1479.92,
+      "end": 1487.5200000000002,
+      "text": " view, how to install it, what you get, the use of the project context folders, how you're going to use"
+    },
+    {
+      "id": 230,
+      "start": 1487.5200000000002,
+      "end": 1493.2,
+      "text": " that, different, what's in this repository, you know, this is a little bit of a, if you will,"
+    },
+    {
+      "id": 231,
+      "start": 1493.2,
+      "end": 1500.56,
+      "text": " another view about Nova, there is an install guide, you're also going to get there, I can see here"
+    },
+    {
+      "id": 232,
+      "start": 1500.56,
+      "end": 1506.48,
+      "text": " in the preview, it's a, give you a little bit of a step by step, you're going to install the cursor"
+    },
+    {
+      "id": 233,
+      "start": 1506.48,
+      "end": 1516.0,
+      "text": " IDE, and then you're going to store the install this files, and you can start, you know, I've done"
+    },
+    {
+      "id": 234,
+      "start": 1516.08,
+      "end": 1524.16,
+      "text": " this step three at the WCB, WCB stands for work crew builder agent, that's the name I gave to"
+    },
+    {
+      "id": 235,
+      "start": 1524.16,
+      "end": 1530.72,
+      "text": " the agents in the files, and so you can see here, this is the structure, and this file, which is up"
+    },
+    {
+      "id": 236,
+      "start": 1530.72,
+      "end": 1537.52,
+      "text": " here, WCB agent.md, this is the file that described the Nova agent that actually is going to help"
+    },
+    {
+      "id": 237,
+      "start": 1537.76,
+      "end": 1546.32,
+      "text": " build the things, and so if I wanted to, let's just say, I wanted to start using this, right? I have"
+    },
+    {
+      "id": 238,
+      "start": 1546.32,
+      "end": 1551.2,
+      "text": " here some additional files that give me kind of the rules, and how this builder is going to work,"
+    },
+    {
+      "id": 239,
+      "start": 1551.2,
+      "end": 1557.68,
+      "text": " you don't have to worry about those right now, all I wanted to show, for example, if I'm going to"
+    },
+    {
+      "id": 240,
+      "start": 1557.8400000000001,
+      "end": 1568.24,
+      "text": " close this, it's here, so you don't pay attention to what I'm going to do here, I can invoke,"
+    },
+    {
+      "id": 241,
+      "start": 1568.24,
+      "end": 1579.6000000000001,
+      "text": " so I'm going to ask at WCB, now actually, let me just select this first, select that in the context,"
+    },
+    {
+      "id": 242,
+      "start": 1579.7600000000002,
+      "end": 1588.72,
+      "text": " and you can see here that actually suggests a reddit this file, this is the WCB agent,"
+    },
+    {
+      "id": 243,
+      "start": 1588.72,
+      "end": 1596.5600000000002,
+      "text": " and work crew builder agent, so essentially I invoked, I called this agent, which is Nova,"
+    },
+    {
+      "id": 244,
+      "start": 1597.8400000000001,
+      "end": 1604.96,
+      "text": " and this is described what Nova does, right, in this file, describe basically how this is going to work,"
+    },
+    {
+      "id": 245,
+      "start": 1605.6000000000001,
+      "end": 1616.16,
+      "text": " but I don't want to read all this stuff, I just want to ask Nova now, help me build a work crew,"
+    },
+    {
+      "id": 246,
+      "start": 1618.16,
+      "end": 1625.1200000000001,
+      "text": " so I'm going to start chatting with Nova now, and it's going to see all this reference, so it's going"
+    },
+    {
+      "id": 247,
+      "start": 1625.1200000000001,
+      "end": 1630.4,
+      "text": " to start to understand what needs to be done, what is the next step that needs to be done,"
+    },
+    {
+      "id": 248,
+      "start": 1631.3600000000001,
+      "end": 1636.88,
+      "text": " and so it's actually reading the files, it reads the rules,"
+    },
+    {
+      "id": 249,
+      "start": 1637.52,
+      "end": 1643.44,
+      "text": " reading the context that are in this file, so this is what an agent does when he collaborates with you,"
+    },
+    {
+      "id": 250,
+      "start": 1644.48,
+      "end": 1650.64,
+      "text": " and it gives me a prompt, it gives me a chat, it's started to chat with me, so it presents"
+    },
+    {
+      "id": 251,
+      "start": 1650.64,
+      "end": 1656.48,
+      "text": " myself, I'm Nova, your work crew builder, and I designed a custom AI crew that help you with the work,"
+    },
+    {
+      "id": 252,
+      "start": 1656.48,
+      "end": 1664.96,
+      "text": " so the things that he asks, maybe I can give more or less context, but let's just say I want to do a"
+    },
+    {
+      "id": 253,
+      "start": 1664.96,
+      "end": 1676.32,
+      "text": " crew for marketing manager, or maybe I'm a marketing manager working at a small agency,"
+    },
+    {
+      "id": 254,
+      "start": 1676.32,
+      "end": 1685.6799999999998,
+      "text": " a US, so all I'm going to say, this is kind of my job for now, a little bit of a context,"
+    },
+    {
+      "id": 255,
+      "start": 1686.3999999999999,
+      "end": 1694.1599999999999,
+      "text": " and so this is the first question, then he's going to ask me a few more questions to get more"
+    },
+    {
+      "id": 256,
+      "start": 1694.1599999999999,
+      "end": 1704.1599999999999,
+      "text": " context, so he's asking what kind of agency, so I'll say advertising, I'm going to say 10 people,"
+    },
+    {
+      "id": 257,
+      "start": 1706.8,
+      "end": 1718.08,
+      "text": " and the biggest pain point is content creation, and maybe social media management."
+    },
+    {
+      "id": 258,
+      "start": 1720.24,
+      "end": 1729.28,
+      "text": " Okay, so let me just mention that to Nova, so I'll give some context, so he knows the role,"
+    },
+    {
+      "id": 259,
+      "start": 1729.36,
+      "end": 1736.56,
+      "text": " he knows a little bit about that context, and right now he's analyzing the format framework,"
+    },
+    {
+      "id": 260,
+      "start": 1736.56,
+      "end": 1743.52,
+      "text": " so identify which task are relevant for the job that I'm doing, so he refers this industry framework"
+    },
+    {
+      "id": 261,
+      "start": 1743.52,
+      "end": 1750.24,
+      "text": " so that he can define which task and which that the school is going to execute, and so you can see"
+    },
+    {
+      "id": 262,
+      "start": 1750.24,
+      "end": 1756.56,
+      "text": " here it's categorizing the task, so the first one is content creation strategy, and he's got five tasks,"
+    },
+    {
+      "id": 263,
+      "start": 1757.52,
+      "end": 1762.72,
+      "text": " research and generate content ideas, right social media posts, great content briefs,"
+    },
+    {
+      "id": 264,
+      "start": 1762.72,
+      "end": 1767.84,
+      "text": " and so forth. Another category is the social media management, because of the two big pain points"
+    },
+    {
+      "id": 265,
+      "start": 1767.84,
+      "end": 1774.24,
+      "text": " I mentioned, and he's got another five tasks, so the task is planning, schedule social media posts,"
+    },
+    {
+      "id": 266,
+      "start": 1774.24,
+      "end": 1780.48,
+      "text": " grab social media, and so forth, so all those activity that then is going to map to specific agents,"
+    },
+    {
+      "id": 267,
+      "start": 1781.3600000000001,
+      "end": 1787.44,
+      "text": " client communication reporting, campaign planning, and analysis, administrative and coordination,"
+    },
+    {
+      "id": 268,
+      "start": 1787.44,
+      "end": 1795.04,
+      "text": " so he actually identified 20 tasks, now I can chat with him, and we know I understand, okay,"
+    },
+    {
+      "id": 269,
+      "start": 1795.04,
+      "end": 1800.8,
+      "text": " I don't care about this, or maybe you miss something, right, I can improve this tool, this list,"
+    },
+    {
+      "id": 270,
+      "start": 1802.88,
+      "end": 1808.0,
+      "text": " but you know I can just say approved for now, just for simplicity for the demo,"
+    },
+    {
+      "id": 271,
+      "start": 1808.08,
+      "end": 1814.0,
+      "text": " and basically he's going to, he's going to know that I'm okay with the list of 21 tasks that"
+    },
+    {
+      "id": 272,
+      "start": 1814.64,
+      "end": 1819.12,
+      "text": " there is the site. Now the next question is going to ask me, it's very important, because"
+    },
+    {
+      "id": 273,
+      "start": 1819.12,
+      "end": 1825.52,
+      "text": " and I try to add this, because you can use these tools with different level of autonomy,"
+    },
+    {
+      "id": 274,
+      "start": 1827.68,
+      "end": 1832.8,
+      "text": " and the more autonomy you give to the crew, the less they're going to bother you, but also you have less"
+    },
+    {
+      "id": 275,
+      "start": 1832.8,
+      "end": 1839.68,
+      "text": " control, so I think the default that I put, and I think it's always a good way to start,"
+    },
+    {
+      "id": 276,
+      "start": 1840.6399999999999,
+      "end": 1844.96,
+      "text": " I want them to, I want to give the school low autonomy, especially the beginning, I don't know"
+    },
+    {
+      "id": 277,
+      "start": 1844.96,
+      "end": 1850.6399999999999,
+      "text": " what they're going to build, how they work, so I can always change this later when I have more confidence,"
+    },
+    {
+      "id": 278,
+      "start": 1851.44,
+      "end": 1856.6399999999999,
+      "text": " but right now I want to start with low autonomy, so that then means that the agents always ask me before"
+    },
+    {
+      "id": 279,
+      "start": 1856.72,
+      "end": 1863.92,
+      "text": " taking action, they always put the output, the output, they suggest it without executing independently,"
+    },
+    {
+      "id": 280,
+      "start": 1863.92,
+      "end": 1869.0400000000002,
+      "text": " and this is a very important because you know depending on the context, some of the work can be"
+    },
+    {
+      "id": 281,
+      "start": 1869.0400000000002,
+      "end": 1875.2,
+      "text": " high-stake decisions or maybe sensitive work, but also like I said in the learning stage, it's also"
+    },
+    {
+      "id": 282,
+      "start": 1875.2,
+      "end": 1881.3600000000001,
+      "text": " always good to have tried to build this trust, tried to feel a little bit about this agent's how they"
+    },
+    {
+      "id": 283,
+      "start": 1881.8400000000001,
+      "end": 1887.3600000000001,
+      "text": " do it, and so I'm just going to, I'm just going to give the low autonomy to this crew, and this is"
+    },
+    {
+      "id": 284,
+      "start": 1887.3600000000001,
+      "end": 1892.8000000000002,
+      "text": " essentially all the inputs that I needed to give to the, to know about in order to start building the"
+    },
+    {
+      "id": 285,
+      "start": 1892.8000000000002,
+      "end": 1899.92,
+      "text": " food, and so now I was going to go back and build this agents, I was going to actually read the rules,"
+    },
+    {
+      "id": 286,
+      "start": 1899.92,
+      "end": 1907.0400000000002,
+      "text": " how to build new agents, you can see there is kind of start writing names, give names to these agents,"
+    },
+    {
+      "id": 287,
+      "start": 1907.6,
+      "end": 1914.32,
+      "text": " and roles specifically, and he's going to start building personas for each of the agents, so"
+    },
+    {
+      "id": 288,
+      "start": 1914.32,
+      "end": 1921.28,
+      "text": " he's designed for agent crew covering the 21 task, right now he's building the agent personas"
+    },
+    {
+      "id": 289,
+      "start": 1921.28,
+      "end": 1927.04,
+      "text": " called Riley, which is for the content creation agent by fundamental mistake, and you can see here"
+    },
+    {
+      "id": 290,
+      "start": 1927.04,
+      "end": 1932.32,
+      "text": " this is doing the job automatically, so it's starting building the crew based on your input that you"
+    },
+    {
+      "id": 291,
+      "start": 1933.12,
+      "end": 1936.96,
+      "text": " keep it, okay, so this is going to take a little bit, we're going to go, we're going to wait until"
+    },
+    {
+      "id": 292,
+      "start": 1936.96,
+      "end": 1945.6799999999998,
+      "text": " this is built in completely, or maybe what I can do, actually I can, let us continue the work,"
+    },
+    {
+      "id": 293,
+      "start": 1945.6799999999998,
+      "end": 1952.56,
+      "text": " now it's going to the second agent, I think it's going fast enough, and maybe I think we can wait,"
+    },
+    {
+      "id": 294,
+      "start": 1952.56,
+      "end": 1959.6,
+      "text": " just wait, and now if I look at this, I think this is already finalized, let me see,"
+    },
+    {
+      "id": 295,
+      "start": 1960.2400000000002,
+      "end": 1967.1200000000001,
+      "text": " now it's going to write this files, this markdown files, that describe what this agents do,"
+    },
+    {
+      "id": 296,
+      "start": 1967.1200000000001,
+      "end": 1973.0400000000002,
+      "text": " or the responsibility, or the task they're going to do, and this is going to save those files"
+    },
+    {
+      "id": 297,
+      "start": 1973.0400000000002,
+      "end": 1980.3200000000002,
+      "text": " here into the folders, so that I can just open it up and review and see if that's okay,"
+    },
+    {
+      "id": 298,
+      "start": 1980.3200000000002,
+      "end": 1983.8400000000001,
+      "text": " maybe I want to change it, they probably want to change the behavior, I want to change"
+    },
+    {
+      "id": 299,
+      "start": 1983.92,
+      "end": 1993.7600000000002,
+      "text": " it in some time, so it's now to the agent number four, number three, sorry, it's the final task,"
+    },
+    {
+      "id": 300,
+      "start": 1993.7600000000002,
+      "end": 1998.8000000000002,
+      "text": " priority, so it's building the crew real time for me, and this is going to take maybe, you know,"
+    },
+    {
+      "id": 301,
+      "start": 1998.8000000000002,
+      "end": 2006.0000000000002,
+      "text": " most three, five minutes, most, and once we have this crew built, then you know, the work of"
+    },
+    {
+      "id": 302,
+      "start": 2006.0,
+      "end": 2012.08,
+      "text": " now it's done, and then we can start working with the agents that are in my crew, okay,"
+    },
+    {
+      "id": 303,
+      "start": 2013.52,
+      "end": 2018.72,
+      "text": " maybe what I can do, I'm going to show you just in the interest of time, I didn't plan to do that,"
+    },
+    {
+      "id": 304,
+      "start": 2018.72,
+      "end": 2027.76,
+      "text": " but in the interest of time, I'm just going to show my crew here, which I have in the other"
+    },
+    {
+      "id": 305,
+      "start": 2027.76,
+      "end": 2039.28,
+      "text": " screen, let's see if I can find it, and yeah, I'm just going to show my kitchen to you guys,"
+    },
+    {
+      "id": 306,
+      "start": 2040.72,
+      "end": 2045.6,
+      "text": " I'm going to bring it here, and I'm going to show you this, my marketing crew is very similar to"
+    },
+    {
+      "id": 307,
+      "start": 2045.6,
+      "end": 2054.4,
+      "text": " the one that we're building out together, and you can see here that, see, I was chatting before this"
+    },
+    {
+      "id": 308,
+      "start": 2054.4,
+      "end": 2061.6,
+      "text": " presentation, with one of these agents to build the slides for this presentation, right, so that's"
+    },
+    {
+      "id": 309,
+      "start": 2061.6,
+      "end": 2071.36,
+      "text": " what I did right before this meeting, and you can see here I have my context here, let me see,"
+    },
+    {
+      "id": 310,
+      "start": 2072.32,
+      "end": 2077.04,
+      "text": " it's a little bit slow because it's computing on the other side, but I just wanted to show you,"
+    },
+    {
+      "id": 311,
+      "start": 2077.12,
+      "end": 2080.48,
+      "text": " I have multiple sessions here, I have different"
+    },
+    {
+      "id": 312,
+      "start": 2082.64,
+      "end": 2086.0,
+      "text": " agents here, so for example, I'm just going to show you the Alex"
+    },
+    {
+      "id": 313,
+      "start": 2087.12,
+      "end": 2094.72,
+      "text": " markdown here, and describe the persona, the task, the skills that he has, what kind of tools"
+    },
+    {
+      "id": 314,
+      "start": 2094.72,
+      "end": 2100.16,
+      "text": " they use, how it works, or what deliver the autonomy, it has that based on what are defined,"
+    },
+    {
+      "id": 315,
+      "start": 2100.64,
+      "end": 2107.3599999999997,
+      "text": " what kind of outputs, right, and how it coordinates with your agents, you can see here,"
+    },
+    {
+      "id": 316,
+      "start": 2107.3599999999997,
+      "end": 2113.92,
+      "text": " just if I show you the status, for example, this is a file where all the agents"
+    },
+    {
+      "id": 317,
+      "start": 2115.12,
+      "end": 2120.3199999999997,
+      "text": " store when I ask them to do something, and they complete the task, they're going to"
+    },
+    {
+      "id": 318,
+      "start": 2120.3199999999997,
+      "end": 2126.3199999999997,
+      "text": " block this here, so I'll be starting using this last week, so the different agents are logging"
+    },
+    {
+      "id": 319,
+      "start": 2126.4,
+      "end": 2132.4,
+      "text": " in the work here, and I can just use this folder, to have my actual document, I have some"
+    },
+    {
+      "id": 320,
+      "start": 2133.6000000000004,
+      "end": 2139.92,
+      "text": " lightning lessons, I have research that I've done here, for example, is an anthropic paper,"
+    },
+    {
+      "id": 321,
+      "start": 2139.92,
+      "end": 2145.2000000000003,
+      "text": " this is like working in your computer, accessing the file just the way you do it today,"
+    },
+    {
+      "id": 322,
+      "start": 2145.2000000000003,
+      "end": 2153.04,
+      "text": " but it's just you do it through this interface that I'm providing here, so that the agents can share"
+    },
+    {
+      "id": 323,
+      "start": 2153.04,
+      "end": 2159.36,
+      "text": " the same context, right, so this is just a PDF that I've been using for research and so forth,"
+    },
+    {
+      "id": 324,
+      "start": 2159.36,
+      "end": 2166.88,
+      "text": " I have some reports, and so it is an important because now the work is sharing, whether it's something"
+    },
+    {
+      "id": 325,
+      "start": 2166.88,
+      "end": 2171.68,
+      "text": " that I serve, finally, on the internet, maybe something I wrote, or maybe something the agent wrote,"
+    },
+    {
+      "id": 326,
+      "start": 2171.68,
+      "end": 2178.08,
+      "text": " they're all sharing the same context here, I have analysis, I have Excel files, I've asked"
+    },
+    {
+      "id": 327,
+      "start": 2178.16,
+      "end": 2184.7999999999997,
+      "text": " maybe some of the agent to do some funnel analysis in my course, I have different assets,"
+    },
+    {
+      "id": 328,
+      "start": 2184.7999999999997,
+      "end": 2188.88,
+      "text": " I have different drafts, different plans, and so forth, right, so this is a little bit about"
+    },
+    {
+      "id": 329,
+      "start": 2189.68,
+      "end": 2197.12,
+      "text": " the way I've been using the proof that similar to what we're building, so that's things I want"
+    },
+    {
+      "id": 330,
+      "start": 2197.12,
+      "end": 2202.48,
+      "text": " to show you while we're doing this, we can go back to the presentation, maybe we come back to this"
+    },
+    {
+      "id": 331,
+      "start": 2202.64,
+      "end": 2207.92,
+      "text": " later to see when it's finished, but just in the interest of time, we're just going to"
+    },
+    {
+      "id": 332,
+      "start": 2209.44,
+      "end": 2215.92,
+      "text": " funnelize the presentation, I just want to point out a couple of things, right, first of all,"
+    },
+    {
+      "id": 333,
+      "start": 2216.64,
+      "end": 2223.12,
+      "text": " the set up, the seven-day plan, it actually could take about less than seven days, but I thought"
+    },
+    {
+      "id": 334,
+      "start": 2223.12,
+      "end": 2228.8,
+      "text": " to keep sort of a guideline to how do you get started with this, right, so they want into you want to"
+    },
+    {
+      "id": 335,
+      "start": 2228.8,
+      "end": 2234.32,
+      "text": " set up nova, you get into project folder like I did, you can start to familiarize with yourself,"
+    },
+    {
+      "id": 336,
+      "start": 2234.32,
+      "end": 2238.96,
+      "text": " you can start asking questions to the agents understand how they became, right, so that's just to get"
+    },
+    {
+      "id": 337,
+      "start": 2238.96,
+      "end": 2243.84,
+      "text": " familiar with the environment, then you can start having, once you have the proof, you start to"
+    },
+    {
+      "id": 338,
+      "start": 2244.48,
+      "end": 2248.88,
+      "text": " review the proof members that was created, you want to maybe customize the rules,"
+    },
+    {
+      "id": 339,
+      "start": 2249.76,
+      "end": 2256.0800000000004,
+      "text": " it's basically a customization stage for having the proof that it's going to help you with your work,"
+    },
+    {
+      "id": 340,
+      "start": 2257.04,
+      "end": 2263.6,
+      "text": " now step three, you can start giving the agents some real tasks, and so you can see some"
+    },
+    {
+      "id": 341,
+      "start": 2263.6,
+      "end": 2269.7599999999998,
+      "text": " our performance, you can start bringing some context into the project, and you can see and start"
+    },
+    {
+      "id": 342,
+      "start": 2269.7599999999998,
+      "end": 2274.88,
+      "text": " delegating that project, so that's, you know, I think seven days probably too long of a time to actually"
+    },
+    {
+      "id": 343,
+      "start": 2274.88,
+      "end": 2280.48,
+      "text": " do, we can see that, but just to get it familiar, I think you can definitely do this in a week,"
+    },
+    {
+      "id": 344,
+      "start": 2280.48,
+      "end": 2285.7599999999998,
+      "text": " and start getting from zero, start getting excited to work together with agents and have a very"
+    },
+    {
+      "id": 345,
+      "start": 2285.84,
+      "end": 2294.48,
+      "text": " powerful agent to help you with the work, okay, just to close it up and summarize it, the time in"
+    },
+    {
+      "id": 346,
+      "start": 2294.48,
+      "end": 2300.5600000000004,
+      "text": " now to jump on this wagon and learn how to work with agent, it's perfect, right, both because of"
+    },
+    {
+      "id": 347,
+      "start": 2300.5600000000004,
+      "end": 2308.1600000000003,
+      "text": " technologies there, the market is ripe for this change, the big players invest in billions,"
+    },
+    {
+      "id": 348,
+      "start": 2308.1600000000003,
+      "end": 2314.2400000000002,
+      "text": " just early adopters are taking advantage of this and getting ahead, it's a very good opportunity,"
+    },
+    {
+      "id": 349,
+      "start": 2314.2400000000002,
+      "end": 2317.84,
+      "text": " and, you know, if there is any risk, it's really actually too way too long,"
+    },
+    {
+      "id": 350,
+      "start": 2318.5600000000004,
+      "end": 2324.8,
+      "text": " to, you know, till everybody else has been going through and they can get ahead and, and it's"
+    },
+    {
+      "id": 351,
+      "start": 2324.8,
+      "end": 2331.1200000000003,
+      "text": " being maintained, they're positioning, they're in the market. What I'm going to do, I'm going to show"
+    },
+    {
+      "id": 352,
+      "start": 2331.1200000000003,
+      "end": 2339.2000000000003,
+      "text": " you, I actually build a link a page where you can actually click on a button, after you install"
+    },
+    {
+      "id": 353,
+      "start": 2339.2000000000003,
+      "end": 2344.5600000000004,
+      "text": " cursor in your machine, you can actually click this button to install logo, just with the tick,"
+    },
+    {
+      "id": 354,
+      "start": 2344.5600000000004,
+      "end": 2351.2000000000003,
+      "text": " this is going to open a window, of a chat window, this is going to take the files that I have"
+    },
+    {
+      "id": 355,
+      "start": 2351.2000000000003,
+      "end": 2355.92,
+      "text": " installing in your environment, and then, you know, it's going to take five minutes to do the installation,"
+    },
+    {
+      "id": 356,
+      "start": 2355.92,
+      "end": 2360.0800000000004,
+      "text": " but then you're going to start building the pool, just the way I was doing before, and you can just"
+    },
+    {
+      "id": 357,
+      "start": 2360.0800000000004,
+      "end": 2365.76,
+      "text": " start doing the first project when you start bringing some foundation to the environment."
+    },
+    {
+      "id": 358,
+      "start": 2365.76,
+      "end": 2374.48,
+      "text": " Let me see here, we're still working, Nova, we're going to come back to it in a bit at the end"
+    },
+    {
+      "id": 359,
+      "start": 2374.48,
+      "end": 2382.1600000000003,
+      "text": " of the presentation. While we have Nova finalizing it, I wanted to mention my methamorosis, this"
+    },
+    {
+      "id": 360,
+      "start": 2382.1600000000003,
+      "end": 2388.0800000000004,
+      "text": " is actually for technical people, I don't know if some of you are in this bucket, in this"
+    },
+    {
+      "id": 361,
+      "start": 2388.88,
+      "end": 2394.1600000000003,
+      "text": " category, in this group of people, but this is very similar, I actually build a framework that"
+    },
+    {
+      "id": 362,
+      "start": 2394.16,
+      "end": 2400.7999999999997,
+      "text": " helps software development build the project and multi-agent AI systems in six weeks, it's a six"
+    },
+    {
+      "id": 363,
+      "start": 2400.7999999999997,
+      "end": 2405.52,
+      "text": " weeks core-based project to actually build and develop, this is more for a technical audience,"
+    },
+    {
+      "id": 364,
+      "start": 2406.16,
+      "end": 2411.3599999999997,
+      "text": " but essentially I've used the same principle that I'll show you to you right now, I've been doing this"
+    },
+    {
+      "id": 365,
+      "start": 2411.3599999999997,
+      "end": 2416.96,
+      "text": " for software development, and I can show you, like I showed before, you can do this also for whatever"
+    },
+    {
+      "id": 366,
+      "start": 2416.96,
+      "end": 2424.56,
+      "text": " knowledge work you're doing. This is a little bit about the journey of the students in my class"
+    },
+    {
+      "id": 367,
+      "start": 2424.56,
+      "end": 2432.08,
+      "text": " are taking, essentially we have a crew of agents, front end engineering, a backend engineering,"
+    },
+    {
+      "id": 368,
+      "start": 2432.08,
+      "end": 2437.6,
+      "text": " there's an integration engineer, product manager, a number of agent personnel that actually help you"
+    },
+    {
+      "id": 369,
+      "start": 2437.6,
+      "end": 2441.92,
+      "text": " to actually build the product and to end, so this is a little bit more advanced and more technical,"
+    },
+    {
+      "id": 370,
+      "start": 2442.0,
+      "end": 2447.04,
+      "text": " but because you actually build an application, but the way you work with the agents it's similar to"
+    },
+    {
+      "id": 371,
+      "start": 2447.04,
+      "end": 2453.6800000000003,
+      "text": " framework can be ideas of a senior, I just want to mention this a little bit about the reviews I got"
+    },
+    {
+      "id": 372,
+      "start": 2453.6800000000003,
+      "end": 2458.08,
+      "text": " from some of my students, interestingly enough some of the students are not taking for people, but they"
+    },
+    {
+      "id": 373,
+      "start": 2458.08,
+      "end": 2463.36,
+      "text": " were able to build actual application using the framework that I'll show you, and so this a little bit"
+    },
+    {
+      "id": 374,
+      "start": 2463.36,
+      "end": 2469.28,
+      "text": " about the takeaway, if you think about now, the shift is happening now, and of course early"
+    },
+    {
+      "id": 375,
+      "start": 2469.36,
+      "end": 2475.84,
+      "text": " options have an advantage, it's really easy to start, I'm going to share the resources that I"
+    },
+    {
+      "id": 376,
+      "start": 2475.84,
+      "end": 2482.1600000000003,
+      "text": " presented later in the video in an email, a follow-up email, and so you can install Noveli, you can build"
+    },
+    {
+      "id": 377,
+      "start": 2482.1600000000003,
+      "end": 2490.5600000000004,
+      "text": " your crew, and start delegating the work to them, okay? Let's see how far Noveli, they're still working,"
+    },
+    {
+      "id": 378,
+      "start": 2490.56,
+      "end": 2507.2799999999997,
+      "text": " it's taking longer than I thought, so yeah I just show you the workflow, basically what I did,"
+    },
+    {
+      "id": 379,
+      "start": 2507.2799999999997,
+      "end": 2514.32,
+      "text": " so when you install Noveli, you know what actually to expect, right? You know, you probably need to"
+    },
+    {
+      "id": 380,
+      "start": 2514.48,
+      "end": 2526.56,
+      "text": " wait a little bit, let's see how far it goes, this is writing some of the, okay, so now it's"
+    },
+    {
+      "id": 381,
+      "start": 2526.56,
+      "end": 2532.1600000000003,
+      "text": " on this status, work, you can see here some of the artifacts, the install guide, those created,"
+    },
+    {
+      "id": 382,
+      "start": 2532.96,
+      "end": 2537.92,
+      "text": " micro, maybe you can take a look at this, this is something that Novel created for us now,"
+    },
+    {
+      "id": 383,
+      "start": 2538.6400000000003,
+      "end": 2543.52,
+      "text": " this is another file that described the crew that you just created, I found it useful because"
+    },
+    {
+      "id": 384,
+      "start": 2544.0,
+      "end": 2551.52,
+      "text": " sometimes I sometimes I forget, you know, which agent is responsible for what, and so Noveli's"
+    },
+    {
+      "id": 385,
+      "start": 2551.52,
+      "end": 2559.36,
+      "text": " going to create this micro file where actually describe, you know, what, who are the agents in your"
+    },
+    {
+      "id": 386,
+      "start": 2559.36,
+      "end": 2565.7599999999998,
+      "text": " crew, what are the responsibility and how you can call them and book them in the chat, okay?"
+    },
+    {
+      "id": 387,
+      "start": 2566.1600000000003,
+      "end": 2574.4,
+      "text": " And yes, I forgot about this, but you know, if I go back into my work, that's it's all you"
+    },
+    {
+      "id": 388,
+      "start": 2574.4,
+      "end": 2582.8,
+      "text": " how you work with the crew, right? You store, you start on your chat, and my computer is very slow,"
+    },
+    {
+      "id": 389,
+      "start": 2582.8,
+      "end": 2588.96,
+      "text": " maybe, it's a little bit, and I can ask, maybe, you know, Jordan,"
+    },
+    {
+      "id": 390,
+      "start": 2595.1200000000003,
+      "end": 2605.2000000000003,
+      "text": " what is the last task you need yesterday? Just to have an interaction with Jordan,"
+    },
+    {
+      "id": 391,
+      "start": 2606.0,
+      "end": 2611.36,
+      "text": " and this Jordan is one of the, one of the AI in my agent team crew, right?"
+    },
+    {
+      "id": 392,
+      "start": 2612.8,
+      "end": 2617.2000000000003,
+      "text": " Now, this is competing with the other Novel that I have running on the other side, so this is a"
+    },
+    {
+      "id": 393,
+      "start": 2617.2000000000003,
+      "end": 2622.88,
+      "text": " little bit slow, but I just wanted to show the way you kind of interact with the agents once you"
+    },
+    {
+      "id": 394,
+      "start": 2622.88,
+      "end": 2630.48,
+      "text": " have them created, and so now he's going to go back at the status, he understands the task, the things"
+    },
+    {
+      "id": 395,
+      "start": 2630.48,
+      "end": 2640.5600000000004,
+      "text": " that he's been doing, and so we actually did a check of the landing page called to action, and he"
+    },
+    {
+      "id": 396,
+      "start": 2640.56,
+      "end": 2645.68,
+      "text": " give me an output, he give me an output file that he created, so I can go back there, okay?"
+    },
+    {
+      "id": 397,
+      "start": 2647.92,
+      "end": 2654.72,
+      "text": " Okay, so actually now this number finished to do the work, so I can see that it gives me a little"
+    },
+    {
+      "id": 398,
+      "start": 2654.72,
+      "end": 2665.12,
+      "text": " bit of a summary of what he did, if I go back, I have the agents here, and I have definitions there,"
+    },
+    {
+      "id": 399,
+      "start": 2665.52,
+      "end": 2672.4,
+      "text": " I have the crew, I have the status, right now this is an empty, but you know, agents are going to"
+    },
+    {
+      "id": 400,
+      "start": 2672.4,
+      "end": 2679.8399999999997,
+      "text": " start to fill in these notifications to keep track of the work they do, okay? I'm going to stop now"
+    },
+    {
+      "id": 401,
+      "start": 2679.8399999999997,
+      "end": 2684.72,
+      "text": " the the demo part, and I'm going to ask if there's any questions about this."
+    }
+  ]
+}

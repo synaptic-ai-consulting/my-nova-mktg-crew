@@ -1,0 +1,13 @@
+# Environment variables (secrets)
+.env
+.env.*
+
+# Cursor IDE local config (optional: remove to commit .cursor/rules)
+.cursor/
+
+# Misc
+*.log
+.DS_Store
+
+# Machine-specific sync state (project-context)
+**/.sync_state.json

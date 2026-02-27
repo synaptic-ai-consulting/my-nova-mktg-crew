@@ -1,0 +1,5 @@
+snapshot_date,campaign_type,email_position,subject,trigger_timing,delivered,opened,open_rate_pct,click_rate_pct,notes
+2026-02-25,Abandoned payment,1,I'm holding your spot - one click to finish,1 hour after a student drops off from the payment process,74,47,63.5,12.2,Accumulated metrics; baseline for recalculating new sequence performance (discard when measuring 2026-02-25+ sequence)
+2026-02-25,Abandoned payment,2,Still there? Your spot is still reserved,1 day after a student drops off from the payment process,11,8,72.7,18.2,Accumulated metrics; baseline for recalculating new sequence performance
+2026-02-25,Abandoned payment,3,Busy? That's exactly why this was built.,2 days after a student drops off from the payment process,0,0,0.0,0.0,Template recently added; no messages sent yet
+2026-02-25,Abandoned payment,4,Don't just take my word for it,4 days after a student drops off from the payment process,13,4,30.8,0.0,Accumulated metrics; baseline for recalculating new sequence performance

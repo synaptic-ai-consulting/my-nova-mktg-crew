@@ -1,0 +1,6 @@
+datetime,Subject,Description,Delivered,Opened,Open_rate_pct,Click_rate_pct
+2026-02-10,"I'm holding your spot - one click to finish",1 hour after a student drops off from the payment process,66,39,59.1,7.6
+2026-02-10,"Still there? Your spot is still reserved",6 hours after a student drops off from the payment process,0,0,0.0,0.0
+2026-02-10,"Still thinking about joining?",1 day after a student drops off from the payment process,59,33,55.9,16.9
+2026-02-10,"What others are saying (and why it's worth it)",2 days after a student drops off from the payment process,2,1,50.0,0.0
+2026-02-10,"Last chance: Cohort 3 closes Feb 20",3 days after a student drops off from the payment process,54,31,57.4,9.3

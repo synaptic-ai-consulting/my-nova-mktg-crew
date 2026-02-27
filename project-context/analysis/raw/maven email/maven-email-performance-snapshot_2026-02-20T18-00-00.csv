@@ -1,0 +1,10 @@
+campaign_type,email_subject,audience,trigger_or_sent_date,delivered_sent,opened,open_rate_pct,click_rate_pct,notes
+Abandoned payment sequence,I'm holding your spot - one click to finish,Abandoned payment (drop-off),1 hour after drop-off,70,43,61.4,10.0,
+Abandoned payment sequence,Still there? Your spot is still reserved,Abandoned payment (drop-off),6 hours after drop-off,5,3,60.0,0.0,
+Abandoned payment sequence,Still thinking about joining?,Abandoned payment (drop-off),1 day after drop-off,62,35,56.5,16.1,highest click rate in sequence
+Abandoned payment sequence,What others are saying (and why it's worth it),Abandoned payment (drop-off),2 days after drop-off,10,3,30.0,0.0,
+Abandoned payment sequence,Last chance: Cohort 3 closes Feb 20,Abandoned payment (drop-off),3 days after drop-off,57,33,57.9,8.8,
+LL Feb 18 narrowcast,Here's everything from today's Lightning Lesson,To students who signed up for Launch a Production Agentic Application,2026-02-18 17:03,129,55,42.6,3.1,Follow-up 1
+LL Feb 18 narrowcast,Cohort 3 enrollments close tomorrow — your LL25 promo code is still waiting,To students who signed up for Launch a Production Agentic Application,2026-02-19 19:56,136,62,45.6,1.5,Follow-up 2
+Waitlist broadcast,Summary of today's Lightning Lesson + few important messages about my Course,To all course leads for Become an Agentic Architect,2026-02-18 21:38,1858,654,35.2,1.8,
+Waitlist broadcast,The framework behind the skills gap (+ Cohort 3 closes tomorrow),To all course leads for Become an Agentic Architect,2026-02-19 15:12,1852,560,30.2,0.6,

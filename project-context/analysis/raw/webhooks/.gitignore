@@ -1,0 +1,2 @@
+# Sync state is machine-specific; do not commit so cron on this machine resumes correctly.
+.sync_state.json

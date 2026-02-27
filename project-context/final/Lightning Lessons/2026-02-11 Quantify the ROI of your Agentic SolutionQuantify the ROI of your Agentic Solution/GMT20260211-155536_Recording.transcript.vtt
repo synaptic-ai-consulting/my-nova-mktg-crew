@@ -1,0 +1,1114 @@
+WEBVTT
+
+1
+00:00:19.300 --> 00:00:28.619
+carmelo iaria: Hello, everyone. Thanks for joining. My name is Carmelo Yaria, I'm the founder and CEO of Synaptic AI Consulting. It's a consulting tech company.
+
+2
+00:00:28.920 --> 00:00:35.520
+carmelo iaria: That builds a high-impact enterprise application for, for enterprise for use cases.
+
+3
+00:00:36.040 --> 00:00:55.400
+carmelo iaria: Today, is, this session is part of a series, that I've been running, this year, 2026. And we started in January with the first learning lesson, talking about the transition that is happening right now from codec to Argentic Architect.
+
+4
+00:00:55.680 --> 00:01:01.250
+carmelo iaria: We run another one about building scalable multi-engine AI systems.
+
+5
+00:01:01.550 --> 00:01:09.050
+carmelo iaria: A couple of weeks after that, and then, the last one we did was about engineering effective contact context systems.
+
+6
+00:01:10.240 --> 00:01:17.879
+carmelo iaria: This is the fourth session in the series, and there's gonna be another one on the 18th, talking about launching a product.
+
+7
+00:01:18.160 --> 00:01:20.440
+carmelo iaria: No genetic quality collection.
+
+8
+00:01:20.940 --> 00:01:30.690
+carmelo iaria: You can see the reason why I put together this session is because I've perceived a little bit of a shift, actually a big shift.
+
+9
+00:01:30.870 --> 00:01:37.340
+carmelo iaria: in the way software development is being, happening. It's, it's happened in the past couple years.
+
+10
+00:01:37.590 --> 00:01:50.109
+carmelo iaria: We all remember, the old times, maybe 2-3 years ago, when, we're stuck in an issue, we're probably going to post our issues on…
+
+11
+00:01:50.220 --> 00:02:00.700
+carmelo iaria: Stack Overflow, asking for support, praying for somebody to actually, care enough to put some suggestions, some solution, how to get in stock.
+
+12
+00:02:00.870 --> 00:02:09.150
+carmelo iaria: it was a very different process. Once we had entered the area of the large language models,
+
+13
+00:02:09.330 --> 00:02:12.379
+carmelo iaria: Many, many different things has changed since then.
+
+14
+00:02:12.510 --> 00:02:18.159
+carmelo iaria: And the… if you remember, if you guys have been doing this, like me, for the past 3 years.
+
+15
+00:02:18.630 --> 00:02:26.510
+carmelo iaria: you could, you know, probably the initial version of this AI system development was to go on JatGPT or Claude.
+
+16
+00:02:26.600 --> 00:02:46.199
+carmelo iaria: ask to generate some code, copy, paste it in our IDE to our code, and go back, telling the DLM what kind of problems we had and why the code was not working. It was an iterative process, was a little bit cumbersome, but it was state-of-the-art 3 years ago.
+
+17
+00:02:48.000 --> 00:03:05.390
+carmelo iaria: you know, the next step after that was actually integrating, the experience, so essentially having the ability to have a chat with an LLM inside the IDE, so you start seeing, tools like Courser, Corsair AI or Cloud Code coming to
+
+18
+00:03:05.430 --> 00:03:09.869
+carmelo iaria: to the market, solving this problem. And this initially was just,
+
+19
+00:03:09.960 --> 00:03:14.789
+carmelo iaria: Embedding the experience, into the development framework.
+
+20
+00:03:15.410 --> 00:03:24.439
+carmelo iaria: But the big step, I think, was happening, happened really last year, when this platform started to include a very powerful
+
+21
+00:03:24.520 --> 00:03:38.170
+carmelo iaria: a genteic harness, an agentic layer that can actually take a lot of actions, use different tools, and really work across files within a large project, and really
+
+22
+00:03:38.340 --> 00:03:47.430
+carmelo iaria: being able to understand the context of the development project, and make a lot of changes into the code. So, gaining a lot of autonomy, in a way.
+
+23
+00:03:47.500 --> 00:04:06.720
+carmelo iaria: There's a lot of different features that the harnessing brings, from planning, browser mode, most recently. On top of the ability of the LLM to get better at coding, the Agentic layer has really made a big change in the way we do AI system development work.
+
+24
+00:04:07.070 --> 00:04:13.699
+carmelo iaria: And this is a little bit of what, what I've been, perceiving in my experience, and also
+
+25
+00:04:13.790 --> 00:04:31.179
+carmelo iaria: sharing online, sharing through my courses, how this, this has really changed the way your work is occurring these days. So it's a lot more about orchestrating the agents than actually do the porting itself. This is kind of where we are now.
+
+26
+00:04:32.270 --> 00:04:37.389
+carmelo iaria: And, you know, why this is important? The issues that…
+
+27
+00:04:37.520 --> 00:04:51.819
+carmelo iaria: what we've seen is that the initial wave of use of the LLMs for coding was about productivity and accelerating the development task. And so, now we are at a point where
+
+28
+00:04:52.060 --> 00:05:07.430
+carmelo iaria: 90%, maybe more, software professionals use these AI tools. But, this… the speed and the productivity at the individual level or at task level, it doesn't necessarily translate into development velocity.
+
+29
+00:05:07.490 --> 00:05:13.479
+carmelo iaria: For the business, and, and generating actual business value. There is still a gap.
+
+30
+00:05:13.750 --> 00:05:23.719
+carmelo iaria: And the gap is really because the, again, optimizing the individual task doesn't necessarily translate into system-level performance.
+
+31
+00:05:23.920 --> 00:05:26.800
+carmelo iaria: This is a little bit what I've been,
+
+32
+00:05:26.890 --> 00:05:31.470
+carmelo iaria: Perceiving in my own work, but also been reading through,
+
+33
+00:05:31.520 --> 00:05:43.190
+carmelo iaria: this wonderful book that I read last year that talks a little bit about the profound shift that happened when the AI respects the knowledge economy. And the book is about AI in general.
+
+34
+00:05:43.190 --> 00:05:51.809
+carmelo iaria: And, it provides some framework to actually understand what's going on, how this is really going to change any type of work.
+
+35
+00:05:51.910 --> 00:05:59.670
+carmelo iaria: But of course, it applies to software development as well. So, this is what I've been, thinking a lot through.
+
+36
+00:05:59.710 --> 00:06:15.580
+carmelo iaria: And what I came up with is the idea that the work that we're doing, it's moving more into orchestrating, like I was saying, orchestrating AI agents instead of just accelerating the speed at which we speed code out.
+
+37
+00:06:15.850 --> 00:06:22.300
+carmelo iaria: Using DLMs. So this is a really bit of a… the big shift. I think you've been hearing this,
+
+38
+00:06:22.700 --> 00:06:33.300
+carmelo iaria: about the shift quite a bit. There's very prominent figures in our market, in our world, that talks about this. There's the big companies that are talking about this now.
+
+39
+00:06:33.400 --> 00:06:52.319
+carmelo iaria: I identified this trend, you know, early next… last year, and, you know, I asked her, he changed the way I do the work myself, and also I… he helped me put together a course that I have on Maven that I call Becoming an AI, an Agentic Architect.
+
+40
+00:06:52.400 --> 00:06:54.650
+carmelo iaria: That is really…
+
+41
+00:06:54.840 --> 00:07:08.479
+carmelo iaria: shaping the way I've been thinking about it, and this content is coming a little bit from there. What I mean about Agentic Architects, just to give you a little bit of introduction, it's really a new role where I think
+
+42
+00:07:08.550 --> 00:07:19.659
+carmelo iaria: perhaps is an architect, perhaps is a software development in the current role, but evolves into orchestrating specialized AI agents that actually do the work for you.
+
+43
+00:07:19.870 --> 00:07:23.399
+carmelo iaria: I built a development framework that
+
+44
+00:07:23.540 --> 00:07:32.009
+carmelo iaria: Brings the traditional software life cycle, the development lifecycle, into the agentic age.
+
+45
+00:07:32.410 --> 00:07:37.500
+carmelo iaria: I call that, AMAD, AI Assisted Multi-Engine Application.
+
+46
+00:07:37.560 --> 00:07:50.099
+carmelo iaria: development framework, and this is really what I teach during my course. I also have written about this shift in a couple of papers.
+
+47
+00:07:50.120 --> 00:08:07.029
+carmelo iaria: So, the one to the left is the rise of the Agentic Architect, and the one to the right is the Agentic Architect Playbook that goes a little bit about the transition, the changes that have… that are happening in our profession, and really what to do to prepare for this new world.
+
+48
+00:08:07.390 --> 00:08:17.559
+carmelo iaria: I also have done some lessons in, on the Rio platform, and I also, like I said, I have some courses on Maven. And this is a little bit about
+
+49
+00:08:17.700 --> 00:08:27.589
+carmelo iaria: just to give you a little bit about the, an overview of what I mean by Agentique architect, why we're talking about the GenTech Architect, and, why is that relevant?
+
+50
+00:08:27.760 --> 00:08:37.960
+carmelo iaria: This lightning lesson specifically is talking about… it's focusing on one aspect. It's not… perhaps not as technical as some of the other sessions that I've run.
+
+51
+00:08:37.980 --> 00:08:51.459
+carmelo iaria: But it's nonetheless, it's very important. It's really, touching upon an aspect that maybe, as a software developer, maybe you don't necessarily pay too much attention with day-to-day work.
+
+52
+00:08:52.030 --> 00:08:54.310
+carmelo iaria: But as you start,
+
+53
+00:08:55.090 --> 00:09:02.029
+carmelo iaria: Putting your position a little bit, you know, above the actual development, full development is something that you used to start thinking about.
+
+54
+00:09:02.220 --> 00:09:05.459
+carmelo iaria: And, in other words, you know, really.
+
+55
+00:09:05.560 --> 00:09:16.690
+carmelo iaria: It doesn't matter if you're brilliant at making code, you know, you still need to justify the investments, to justify… you have to start to elevate a little bit the conversation.
+
+56
+00:09:16.690 --> 00:09:26.580
+carmelo iaria: Especially when he's about to convince some, maybe, leaders, some key stakeholders to invest in a project that the music is worth investing in.
+
+57
+00:09:26.900 --> 00:09:35.839
+carmelo iaria: This is why I think the, this aspect of the Agentic Architect, it's one of the chapters in my, O'Reilly…
+
+58
+00:09:35.940 --> 00:09:46.169
+carmelo iaria: for our lessons, and so I tried to bring it here in a short format, just to give a little bit of a glimpse of what we're talking about in the other course.
+
+59
+00:09:46.350 --> 00:09:51.110
+carmelo iaria: So this is a little bit about some of the reasons why you…
+
+60
+00:09:51.310 --> 00:09:56.650
+carmelo iaria: This is important. And, if we start looking into
+
+61
+00:09:57.220 --> 00:10:00.080
+carmelo iaria: the specifics, right? One of the things I wanted to
+
+62
+00:10:00.210 --> 00:10:05.949
+carmelo iaria: To put out there as a framework is to start looking at this holistically.
+
+63
+00:10:06.180 --> 00:10:17.010
+carmelo iaria: in terms of, you know, justifying the investment on one specific project. So, it's not just about the math of the cost and the ROI, but we're going to get to that as well.
+
+64
+00:10:17.150 --> 00:10:32.010
+carmelo iaria: But, one aspect that I think, one framework I want to leave you with is this, five pillars, where you really should look into the impact on productivity, quality, scalability, risk mitigation strategy.
+
+65
+00:10:32.010 --> 00:10:45.019
+carmelo iaria: So those are, you know, maybe not… not very technical aspects, but nonetheless, those are very important aspects to justify investments into, into… into an AI project that you feel important about.
+
+66
+00:10:45.860 --> 00:10:52.179
+carmelo iaria: Then we're gonna go a little bit into an example, a quick example of ROI, to measure
+
+67
+00:10:52.330 --> 00:11:04.779
+carmelo iaria: cost savings, velocity gains, revenue impact, those are also important. And also, I want to leave you with some guiding… guidelines to how do we pitch, you know, how do you structure your pitch to key stakeholders.
+
+68
+00:11:04.780 --> 00:11:14.360
+carmelo iaria: to secure executive buy-in and budget for these initiatives. So this will be the three, learning objectives for this particular session.
+
+69
+00:11:15.330 --> 00:11:22.380
+carmelo iaria: Now, if we go dive into this, the five dimensions that I mentioned before, again.
+
+70
+00:11:22.540 --> 00:11:24.310
+carmelo iaria: The first one is productivity.
+
+71
+00:11:24.440 --> 00:11:37.789
+carmelo iaria: And what do we mean by productivity? I think we wanted to definitely quantify the gains in velocity, the… but also the rate of task completions, and the time to deliver it.
+
+72
+00:11:37.890 --> 00:11:57.429
+carmelo iaria: This is the kind of the key, kind of table stake, kind of metrics to understand productivity, but in order to actually understand the value of your initiatives, you need to go well beyond these four aspects. This is probably the initial things that you think about, but it's also important to look at the quality.
+
+73
+00:11:57.860 --> 00:12:11.049
+carmelo iaria: So, how much we are able to use in AI to reduce errors, how much we're able to comply with, with policies and governance.
+
+74
+00:12:11.190 --> 00:12:25.099
+carmelo iaria: And also, how do we pad the customer satisfaction? Those are… those are some quality metrics that are important. Again, perhaps not technical, but, will give you a 360-degree
+
+75
+00:12:25.100 --> 00:12:37.109
+carmelo iaria: view of the value that you actually, provide with your initiative. So, productivity, quality, also scalability, it's an important aspect because,
+
+76
+00:12:37.700 --> 00:12:54.519
+carmelo iaria: you know, maybe last year, most of the enterprises were in a sort of prototype of demo mode, MVP mode, and the frustration from executives is, okay, when does this thing come to fruition? How do we generate value, put this in production?
+
+77
+00:12:54.520 --> 00:13:05.770
+carmelo iaria: And when you look at, actually, a system that it kind of works in your laptop, and it now needs to go to the production team, to pull… add thousands and maybe billions of people.
+
+78
+00:13:05.770 --> 00:13:17.019
+carmelo iaria: Of course, you need to look at scalability. And so, not only the technical aspects of scalability, throughput, capacity, latency, but also the cost of the scalability.
+
+79
+00:13:17.100 --> 00:13:32.580
+carmelo iaria: As we know, many… when you start building agentic applications, the intelligence, the brain, the computational… is happening through renting tokens. If you're using foundational models, the cost
+
+80
+00:13:32.850 --> 00:13:40.860
+carmelo iaria: can go up quite… quite quickly if you have not architected your solution correctly. So those are… those are aspects that impact scalability.
+
+81
+00:13:41.580 --> 00:13:56.339
+carmelo iaria: It's also important to understand, the risk mitigation dimension, and this is important because there's still a little bit, you know, little trust, I would say, in the solutions provided, you know, built with AI.
+
+82
+00:13:56.490 --> 00:14:02.000
+carmelo iaria: because AI solutions are not as deterministic as traditional software, there is a…
+
+83
+00:14:02.130 --> 00:14:05.329
+carmelo iaria: There's an element of,
+
+84
+00:14:05.990 --> 00:14:17.929
+carmelo iaria: the variance between the runs, different, and the way the LLMs operate. It's important to understand what methods, what tools
+
+85
+00:14:18.110 --> 00:14:23.880
+carmelo iaria: What measure have you put in place into your solution to risk… mitigate that risk?
+
+86
+00:14:23.950 --> 00:14:28.709
+carmelo iaria: And that goes from, you know, measuring the number of incidents.
+
+87
+00:14:28.760 --> 00:14:48.430
+carmelo iaria: measure the compliance and violation of compliance of your solution, and audit the solution as well. So, there's obviously a number of technical aspects that allows you to measure these things. So, observability of AI solutions is very important.
+
+88
+00:14:48.430 --> 00:15:02.659
+carmelo iaria: But you need to try to weave that into sort of a complete, compelling narrative if you really wanted to, you know, get buy-in and actually convince stakeholders to go ahead with the project.
+
+89
+00:15:02.690 --> 00:15:10.870
+carmelo iaria: how are you going to manage the risk? Are you going to mitigate the risk? This is an important dimension of providing value at the end of the day.
+
+90
+00:15:11.170 --> 00:15:22.970
+carmelo iaria: And it's… last but not least, it's also important to look at the, sort of, you know, other metrics that are really relevant for the business, especially when you talk to key stakeholders.
+
+91
+00:15:23.360 --> 00:15:30.799
+carmelo iaria: You want to translate into that into revenue impact, market positioning, competitive advantages, so…
+
+92
+00:15:30.830 --> 00:15:49.190
+carmelo iaria: this gives a little bit of another angle to show the value of the solution. So, those are the five dimensions that I wanted to put out there that you should think about when you start thinking about, as an Argentic architect, bringing value to the organization you're working for.
+
+93
+00:15:49.600 --> 00:16:09.139
+carmelo iaria: If we double-click on quality, for example, I want to just expand a little bit more, because sometimes, especially if you're on a technical level, you're… you have a tendency to look at the model quality aspects, so there is a lot… a number of libraries that allows you to measure
+
+94
+00:16:09.340 --> 00:16:26.229
+carmelo iaria: accuracy, there's some techniques to use factorial retinas, hallucination rates, those are, problematic aspects of using AI, or LLMs, I should say, in the solution. And this is sort of the baseline, right, the basic,
+
+95
+00:16:26.340 --> 00:16:36.730
+carmelo iaria: hygiene that you need to… need to have in order to, really understand the quality, the quality layer, but… of your system. But beyond the model layer.
+
+96
+00:16:37.200 --> 00:16:45.359
+carmelo iaria: now you have to start measuring also, KPIs for the quality of the agents.
+
+97
+00:16:45.530 --> 00:16:50.930
+carmelo iaria: And as well as the quality of the system level. So, at the agent level, for example.
+
+98
+00:16:50.990 --> 00:17:00.880
+carmelo iaria: you may want to look at the quality of the plan that the agent built. One of the very important aspects is tool selection, and so
+
+99
+00:17:00.920 --> 00:17:16.030
+carmelo iaria: how well that inference is happening. It's an important measure of quality of your agent. And also, if the agent performs multiple steps in executing a task, you need to understand the ratio
+
+100
+00:17:16.030 --> 00:17:25.379
+carmelo iaria: the success rate of the multiple steps. So, those are things that are in a different layer, and those are important because
+
+101
+00:17:25.380 --> 00:17:33.430
+carmelo iaria: start to, to differentiate from just an engineer that knows how to write the code and has to call an LLM,
+
+102
+00:17:33.430 --> 00:17:49.209
+carmelo iaria: From somebody that really starts looking at the solution holistically, and, you know, especially when there's multiple agents, how you orchestrate and how the interaction between the agents also impacts the quality of the solution.
+
+103
+00:17:49.560 --> 00:18:05.780
+carmelo iaria: And now, when you look at this at the system level, what really the leaders really care about, do you want to look at the end-to-end workflow completion, the cost per resolution, some of the business KPIs? So those are… those are things that are important
+
+104
+00:18:05.860 --> 00:18:09.630
+carmelo iaria: Those are three lenses, you know, three layers that you want to look in terms of quality.
+
+105
+00:18:10.100 --> 00:18:12.470
+carmelo iaria: When you look at the quality of your AI solution.
+
+106
+00:18:13.250 --> 00:18:19.770
+carmelo iaria: When we go to the second part, which is with the ROI,
+
+107
+00:18:19.820 --> 00:18:38.240
+carmelo iaria: you know, this is a little bit of the elements that you should think about. Definitely, you should start having a baseline, understanding what is the current state, understanding what is the current solution cost per unit, what is the volume, what are the quality metrics that you… and what are the numbers, the KPIs.
+
+108
+00:18:38.240 --> 00:18:43.719
+carmelo iaria: that your solution, the current solution works, without AI, without your genetic systems.
+
+109
+00:18:43.820 --> 00:18:55.219
+carmelo iaria: That way, you know, that gives you, of course, a baseline to compare the new system with Agentic, and so you can actually, you know, draw some conclusions about the savings.
+
+110
+00:18:55.350 --> 00:19:08.840
+carmelo iaria: The… the return, the payback periods of that investment, what is the investment that you need to make into that solution, both from a development perspective, the infrastructure perspective, the operations?
+
+111
+00:19:08.840 --> 00:19:15.590
+carmelo iaria: Those are cost aspects of your agentic solution. And then you need to try to understand, you know, that investment.
+
+112
+00:19:15.760 --> 00:19:23.120
+carmelo iaria: Divided by the monthly savings is really, it's a payback. It gives you a payback in a reasonable time, right?
+
+113
+00:19:23.240 --> 00:19:35.210
+carmelo iaria: There's a little bit of different calculation when you do this for year one, when you build the solution, so you're gonna have some, prompt investment to actually build the solution, versus,
+
+114
+00:19:35.770 --> 00:19:46.170
+carmelo iaria: The year two, and afterwards, where, maybe you're incurring a lower development cost, and it's really… you're shifting to operational mode.
+
+115
+00:19:46.400 --> 00:19:54.599
+carmelo iaria: and you start compounding on those savings. So those are kind of a little bit of the core elements that you want to look at in the…
+
+116
+00:19:54.720 --> 00:19:57.450
+carmelo iaria: When you look at the ROI.
+
+117
+00:19:57.860 --> 00:20:10.689
+carmelo iaria: And if you, you know, let's take a simple example, just to kind of round this, you know, so it's something concrete. Let's just say you, you have, you try to solve the customer support.
+
+118
+00:20:10.990 --> 00:20:14.609
+carmelo iaria: Operations, and you have an operation that has
+
+119
+00:20:14.750 --> 00:20:29.370
+carmelo iaria: 24,000 queries per month, that's the baseline. And this, support, falls… happens through a team of people, with a cost per resolution of $2.5, right? So that…
+
+120
+00:20:29.910 --> 00:20:42.010
+carmelo iaria: just simple math, you can see that the current, solution, the baseline solution, it costs $60,000 a month. It also, it's currently in, sort of, the best line.
+
+121
+00:20:42.010 --> 00:20:54.829
+carmelo iaria: Providing a customer satisfaction rate 3.6. This is just an example I made up, just to make… just the exercise here. And and, you know, the rate of, the first customer
+
+122
+00:20:54.860 --> 00:21:02.680
+carmelo iaria: Resolution The rate of which the resolution is actually solved, it's 65%.
+
+123
+00:21:03.590 --> 00:21:17.680
+carmelo iaria: Now, if we build a solution that has a target of automating 70% of these operations, then you can do the math, you know, the same volume of $25,000 a month. You can resolve with the agents about
+
+124
+00:21:18.000 --> 00:21:29.059
+carmelo iaria: 16,800 of this, and the cost per resolution is 5 cents, so then you dramatically increased the cost for that 70% that gets automated by the agent.
+
+125
+00:21:29.140 --> 00:21:43.660
+carmelo iaria: Now, of course, there's going to be some… some humans that were, especially when some, the agents could not solve the issues, and those… so the issues are escalated, to the humans, but those have, sort of a lower cost per ticket.
+
+126
+00:21:43.660 --> 00:21:49.589
+carmelo iaria: And so, at the end of the day, your solution is going to cost $11,640 for this example.
+
+127
+00:21:49.710 --> 00:21:54.820
+carmelo iaria: Providing a significant, cost savings for monthly operations.
+
+128
+00:21:55.060 --> 00:22:11.159
+carmelo iaria: it's important to… to understand it, so not just the cost savings, so these are not the only things that you want to look at. You also want to look at the impact on the customer satisfaction. Of course, your agentic system, you don't want to just build the system that costs you less to upgrade.
+
+129
+00:22:11.160 --> 00:22:28.240
+carmelo iaria: But you need to, at the same time, make sure that the responses and the agents are interacting with the human in a way that improves the customer satisfaction. Because that, at the end of the day, is going to have, at the end, some business impacts and monetary impact, as we're going to see later.
+
+130
+00:22:28.580 --> 00:22:34.460
+carmelo iaria: And also, you know, we want to, increase also the… the rate of,
+
+131
+00:22:34.950 --> 00:22:45.800
+carmelo iaria: first call, resolution. So, the top line here kind of gives you a little bit of a summary if you, you know, looking at the cost per month.
+
+132
+00:22:45.960 --> 00:22:59.300
+carmelo iaria: Before and after, you basically introduce, in this solution, you have 81% cost reduction. And, if you had to invest maybe $200,000 to build the solution, you have a full month
+
+133
+00:22:59.300 --> 00:23:10.700
+carmelo iaria: break even. So in 4 months, you kind of, get back, you have the return on your investments in 4 months, which is pretty outstanding, of course. But this is just an example, just to illustrate the math.
+
+134
+00:23:11.200 --> 00:23:24.310
+carmelo iaria: But, you know, you need to also look at other aspects, not just the cost, like you were saying, but, the fact that Net Promoter Score, which is a measure of satisfaction.
+
+135
+00:23:24.310 --> 00:23:37.950
+carmelo iaria: is an important aspect. You don't want to, like I said, have a car… a system that costs less to operate, but impact negatively the customer satisfaction. So, you should actually target it to increase that.
+
+136
+00:23:38.750 --> 00:23:45.789
+carmelo iaria: And if you are in, let's say you're a bank environment, in a specific, you know, maybe a mid-sized bank.
+
+137
+00:23:46.260 --> 00:23:53.439
+carmelo iaria: This is the example I made in my course. You know, let's just say you have 50 million in customer books.
+
+138
+00:23:53.650 --> 00:24:08.390
+carmelo iaria: your NPS, you know, 10 points in your NPS in that specific market can give you a lift in revenue of 5%, maybe 5 to 10%, right? And so, that translated to 2.5 million additional revenue per month.
+
+139
+00:24:08.450 --> 00:24:22.909
+carmelo iaria: per year, sorry, and over a 5-year period, that would be 12.5. So, this is a little bit of a, you know, just showing a little bit of math, how you can see and demonstrate to your stakeholders that
+
+140
+00:24:23.080 --> 00:24:33.250
+carmelo iaria: your solution impacting positively the NPS, it does have a bottom line… a bottom line impact on the revenue itself, right?
+
+141
+00:24:35.430 --> 00:24:52.509
+carmelo iaria: Now, once you have sort of looked at the quality, you looked at the scalability, you look at different metrics that we saw before, you have a clear understanding of the ROI, you understand how this impacts the business and the customer satisfaction.
+
+142
+00:24:52.510 --> 00:24:57.299
+carmelo iaria: This is a little bit of a structure that you could use to build your business case.
+
+143
+00:24:57.820 --> 00:25:08.609
+carmelo iaria: So, do you want to have a strong pitch that includes a one-line vetted proposition? It's an executive summary to start with. Do you want to show side-by-side metrics?
+
+144
+00:25:08.810 --> 00:25:21.249
+carmelo iaria: before and after, how you, you know, the impact that your solution is going to have, like we've done in the example of the customer support. You need to give a clear timeline of the payback.
+
+145
+00:25:21.510 --> 00:25:34.550
+carmelo iaria: as we measure in the example as well. And like I said at the beginning, it's also important how you're going to intend to address the risk. There are risks associated with any solution, and
+
+146
+00:25:34.650 --> 00:25:39.390
+carmelo iaria: with AI, there's additional risks that are coming from the use of,
+
+147
+00:25:39.950 --> 00:25:57.590
+carmelo iaria: undeterministic systems, so you need to be very clear up front about how, you know, what are the scenarios where things can go wrong, and make sure that stakeholders understand you know how to handle those scenarios. That's important to give trust to the
+
+148
+00:25:57.590 --> 00:26:04.169
+carmelo iaria: To the manager, to the key stakeholders, to… to give you the green light to go ahead with the solution.
+
+149
+00:26:04.420 --> 00:26:12.190
+carmelo iaria: And then close with the criteria, you know, understand what you're gonna measure, and how you know, how you're gonna know.
+
+150
+00:26:12.760 --> 00:26:23.980
+carmelo iaria: When things are going well, so you need to make sure that you have clearly defined metrics to define success, and then you have a clear ask at the end.
+
+151
+00:26:24.120 --> 00:26:24.880
+carmelo iaria: Okay.
+
+152
+00:26:25.310 --> 00:26:28.540
+carmelo iaria: So this is a little bit about the…
+
+153
+00:26:29.040 --> 00:26:41.800
+carmelo iaria: the ROI aspects. This is the course that I was mentioning, where I… it's a 4-hour session that I'm doing on a rally. I did one in January, but the next one is going to be end of April.
+
+154
+00:26:42.290 --> 00:26:54.190
+carmelo iaria: And this is a 4-hour session where I actually go into a lot more details about the role, about the skills, the career path, how to really become a genetic architect.
+
+155
+00:26:54.280 --> 00:27:05.019
+carmelo iaria: The next thing that I have on this topic is my Maven course, as I was mentioning before. This is a project-based course, so this is actually building an application.
+
+156
+00:27:05.670 --> 00:27:11.390
+carmelo iaria: The day one is actually when you select the use case. Maybe you bring to the class a use case
+
+157
+00:27:11.390 --> 00:27:25.970
+carmelo iaria: a project that you want to build in your organization, and we're going to build it in six sprints over the course of six weeks. We're going to build it together, we're going to build it with the cohort. You're going to learn how to use this AMAD method that I defined.
+
+158
+00:27:25.970 --> 00:27:30.270
+carmelo iaria: so that you can actually have multiple AI agents helping you,
+
+159
+00:27:30.280 --> 00:27:41.879
+carmelo iaria: writing the PRD, writing the system functional spec, building the front end, the back end. This is a little bit about… in fact, actually, this slide shows a little bit of the journey.
+
+160
+00:27:41.900 --> 00:27:53.869
+carmelo iaria: like I was saying, you can go step-by-step in this experience to go from an idea into a real project, and you deliver it. So this is a hands-on technical, technical course.
+
+161
+00:27:54.340 --> 00:28:10.159
+carmelo iaria: Just, before I switch back, I want to mention that because you've joined the Lightning lessons, there's a discount of 25%, that is valid for this cohort 3 that is going to start in February 23rd.
+
+162
+00:28:10.400 --> 00:28:21.120
+carmelo iaria: So, you're gonna get all this information in the email, you're gonna get an email with the links and some resources as well, so don't worry about it, so you're gonna get, if you're interested in this, let me know.
+
+163
+00:28:22.140 --> 00:28:26.369
+carmelo iaria: This is a little bit about my, some of my students.
+
+164
+00:28:26.610 --> 00:28:44.780
+carmelo iaria: And I want to stress the fact that there are some technical people, mostly, but also non-technical people, business people, that have, you know, the curiosity and the courage to actually dive into this new world of AI, developing with AI. They've been very successful, actually impacting their business quite a bit.
+
+165
+00:28:46.480 --> 00:28:49.540
+carmelo iaria: So that's a little bit about what I wanted to show today.
+
+166
+00:28:49.660 --> 00:29:07.240
+carmelo iaria: Again, stressing that the AI is really transforming the software engineering jobs, and everything is pointing to the direction of you becoming an agentic architect, where you actually orchestrate multiple agents that do the work for you.
+
+167
+00:29:07.450 --> 00:29:10.610
+carmelo iaria: This specific, like, lessonist was about
+
+168
+00:29:10.730 --> 00:29:25.440
+carmelo iaria: what you should know as an energetic architect to secure budget for a new project, how you go about to create the pitch, how to show the ROI of that investment.
+
+169
+00:29:25.880 --> 00:29:44.930
+carmelo iaria: how you show that you have control of the risk associated with the project, how you know, what are the… what are the different pillars that you need to structure your pitch around when you start… when you start building this, this type of project. So, I think we just, made it to the bottom of the hour, so…
+
+170
+00:29:44.950 --> 00:29:47.850
+carmelo iaria: This is just a list of, resources.
+
+171
+00:29:47.920 --> 00:29:55.550
+carmelo iaria: In fact, what I'm gonna do now, I'm gonna open it for Q&A, and as if any of you have some questions, just,
+
+172
+00:29:55.680 --> 00:30:04.080
+carmelo iaria: turn on, turn on the phone, the mic, I just, I'm just gonna grab the links, and I'm gonna put it in the chat, so you have this in, in the chat.
+
+173
+00:30:04.320 --> 00:30:07.400
+carmelo iaria: And I'm also gonna send this over email anyway, so don't worry about it.
+
+174
+00:30:11.010 --> 00:30:12.270
+carmelo iaria: Any questions?
+
+175
+00:30:17.540 --> 00:30:19.150
+carmelo iaria: Anybody's questions?
+
+176
+00:30:19.460 --> 00:30:21.820
+carmelo iaria: Just gonna start putting these links here.
+
+177
+00:30:22.670 --> 00:30:28.420
+carmelo iaria: There's my Maven page. There's a lot of resources there, directly.
+
+178
+00:30:28.850 --> 00:30:35.890
+carmelo iaria: Then the paper, The Rise of the Agent Architect and the Agent Architect Playbook.
+
+179
+00:30:37.030 --> 00:30:45.099
+carmelo iaria: I mentioned the AMAD framework, and that is available on this GitHub repo.
+
+180
+00:30:46.770 --> 00:30:53.670
+carmelo iaria: I mentioned the Raleigh session, so I'll give you the link on the… I don't know if the…
+
+181
+00:30:54.330 --> 00:31:01.520
+carmelo iaria: sign up for the April sessions are open. I haven't checked this… but they may be this week or next week.
+
+182
+00:31:02.320 --> 00:31:08.569
+carmelo iaria: And then the link with the discount for the 6-weeks course.
+
+183
+00:31:09.080 --> 00:31:15.190
+carmelo iaria: become an energetic architect is also there. I'm just gonna put my calendar.
+
+184
+00:31:15.850 --> 00:31:22.799
+carmelo iaria: Link, so if you want to talk to me, just click there, set up a time, and we can talk one-on-one.
+
+185
+00:31:25.450 --> 00:31:26.260
+carmelo iaria: Okay.
+
+186
+00:31:28.040 --> 00:31:29.859
+carmelo iaria: Anybody has any questions?
+
+187
+00:31:34.030 --> 00:31:47.539
+Crystal Valentine: Hey, Carmelo, just a quick question. Thanks for today, by the way, the session was really great. I was wondering, are there any new metrics that we need to consider when we shift from human-based customer service to, for example, Agentic?
+
+188
+00:31:49.570 --> 00:31:57.659
+carmelo iaria: So, there's definitely, like I said, there's some technical aspects, right, that are definitely new, so you need to kind of look into
+
+189
+00:31:58.230 --> 00:32:11.330
+carmelo iaria: the technical KPIs for LLM, the layer, when I was talking about the three layers, right? The LLM layer, the agentic layer, and also system layer, right? And then there's also some,
+
+190
+00:32:11.330 --> 00:32:18.380
+carmelo iaria: some business KPIs, but those would be the same, you know, as if you would measure for the human team, right?
+
+191
+00:32:18.590 --> 00:32:28.269
+carmelo iaria: And at the end of the day, I think most likely it's going to be a hybrid of, you know, agents and humans, you know, at least for a good while. So,
+
+192
+00:32:28.990 --> 00:32:37.279
+carmelo iaria: whatever makes sense for the business perspective, you know, those are the metrics you still want to consider. In addition to that, you maybe just wanted to,
+
+193
+00:32:37.470 --> 00:32:39.620
+carmelo iaria: Look at the technical aspects.
+
+194
+00:32:39.870 --> 00:32:45.320
+carmelo iaria: I think I managed, let me see if I can go back… between…
+
+195
+00:32:45.680 --> 00:32:50.570
+carmelo iaria: to that slide, I think I had a one… yeah, I think this one here, the three layers.
+
+196
+00:32:50.850 --> 00:32:52.330
+carmelo iaria: To measure the quality.
+
+197
+00:32:53.340 --> 00:32:55.649
+carmelo iaria: So those are specific about the models.
+
+198
+00:32:56.170 --> 00:33:00.359
+carmelo iaria: This is specific about the agents, and this is a little bit of system level.
+
+199
+00:33:00.740 --> 00:33:01.749
+carmelo iaria: Keep your eyes.
+
+200
+00:33:03.790 --> 00:33:08.240
+carmelo iaria: I know this is, the sliding lessons are very quick, so probably…
+
+201
+00:33:08.390 --> 00:33:11.809
+carmelo iaria: Went through very quickly on this, but .
+
+202
+00:33:12.210 --> 00:33:29.130
+Crystal Valentine: Yeah, I think I was… I was just trying to wrap my mind around when we build a business case, you… I think on the business level, the KPI sort of remains the same as what you're saying, but it's more in the details of it that you need to break it down to understand where do you have the costs, and how do they kind of contribute to each other. That's where you break them down.
+
+203
+00:33:29.130 --> 00:33:42.519
+carmelo iaria: Correct, right. And this is a little bit about, you know, the shift, right, of becoming an architect, an agentic architect, right? You need to have a lot more system-level thinking, you need to understand, you know, the overall end-to-end.
+
+204
+00:33:42.580 --> 00:33:53.420
+carmelo iaria: You need to start talking the business language, not just the technical language. You need to be able to span across, right? That's the great thing. And this is, you know, a big transformation because
+
+205
+00:33:54.260 --> 00:34:03.590
+carmelo iaria: the knowledge itself of actually writing the code and writing the line, that gets absorbed quickly by the LLM layer, by the agents.
+
+206
+00:34:03.690 --> 00:34:04.969
+carmelo iaria: And so…
+
+207
+00:34:05.330 --> 00:34:17.199
+carmelo iaria: What is left for us humans is to orchestrate that layer, and that's why you need to start looking up on the system level, understanding that the system as a whole performs. That, you know, it's not just,
+
+208
+00:34:17.350 --> 00:34:33.320
+carmelo iaria: That the agents are able to access a tool or execute a task, but also, you know, what is the cost of the task, you know, how long does it take, the latency, how you construct your solution, also.
+
+209
+00:34:33.489 --> 00:34:46.559
+carmelo iaria: So that, you know, you don't have an application where there's a user that kind of waits for minutes and, you know, before the agents are done with the work, right? So there's some technical aspects that are associated with that.
+
+210
+00:34:46.699 --> 00:35:02.220
+carmelo iaria: maybe you want to use WebSockets to make sure that you have responsiveness, you pass the status of the agents back into the front end so that the user knows what's going on. So the additional aspects of, you know, when you actually build the solutions.
+
+211
+00:35:02.280 --> 00:35:07.570
+carmelo iaria: Those are… those are important aspects, because at the end of the day, impact the user experience, and that…
+
+212
+00:35:07.670 --> 00:35:09.129
+carmelo iaria: Of course, impressive business.
+
+213
+00:35:10.620 --> 00:35:19.370
+Kimberly H: Carmelo, how do you foresee Agentech architects working with cross-functional teams, you know, because
+
+214
+00:35:19.370 --> 00:35:42.399
+Kimberly H: Building the agent is one thing, you know, the actual configuration, but, you know, the entire life cycle of managing that agent from discovery sessions to doing that measurement from a business perspective. Are you working with project managers, change managers, product, you know, managers?
+
+215
+00:35:42.400 --> 00:35:53.510
+Kimberly H: How do you foresee architects in the future working with those teams, or do you see this as a one-stop type of role that does everything?
+
+216
+00:35:54.190 --> 00:36:01.180
+carmelo iaria: That's a great question, Kimberly. Glad you asked. And I think the answer a little bit depends on the size of the company.
+
+217
+00:36:01.200 --> 00:36:20.900
+carmelo iaria: Right? If you're maybe a small startup, or maybe a solopreneur, you could take on all, you know, all the hats, if you will, right? And just run, you know, work with your AI agents, and build a product, test it with customers. You can kind of run the show by yourself. This is actually happening today, you know, there's a lot of startups
+
+218
+00:36:21.050 --> 00:36:23.289
+carmelo iaria: They're into this mode.
+
+219
+00:36:23.510 --> 00:36:29.109
+carmelo iaria: Now, that… that doesn't necessarily work in a larger organization where you have larger teams, so…
+
+220
+00:36:29.290 --> 00:36:36.810
+carmelo iaria: I think the thing that I like the most, and the reason why I built my framework the way I built it, is because
+
+221
+00:36:37.080 --> 00:36:41.950
+carmelo iaria: I try to follow software development lifecycle best practices.
+
+222
+00:36:42.060 --> 00:36:51.760
+carmelo iaria: So that the agents follow the same… the same process. So that… that makes, you know, working with agents backward compatible with humans, if you will.
+
+223
+00:36:51.990 --> 00:37:07.439
+carmelo iaria: And people can interact and can interoperate with the agent. So, what I mean by that, for example, you know, you have maybe a GitHub repository, you have best practices to, you know, version control, and you have
+
+224
+00:37:07.500 --> 00:37:10.109
+carmelo iaria: A cost and attention to
+
+225
+00:37:10.110 --> 00:37:28.230
+carmelo iaria: document everything, you know, this is something that maybe is a drag for many developers, but, you know, agents are very good at doing that, right? Even if you have an existing code, you can ask them, okay, what does this code do? And, you know, create documentation for it, and now all of a sudden, now you have
+
+226
+00:37:28.360 --> 00:37:41.560
+carmelo iaria: context about that solution, that it's human and legible, right, and also machine legible, because the agents are very good at reading human language, and the humans can definitely understand what's going on. So.
+
+227
+00:37:42.130 --> 00:37:47.409
+carmelo iaria: I guess to answer your question in maybe a more convoluted way, but I think…
+
+228
+00:37:47.660 --> 00:37:53.809
+carmelo iaria: Just passing the context, you know, using the best practice that we have today for development team.
+
+229
+00:37:54.230 --> 00:38:05.209
+carmelo iaria: it's a way that I think, that not only an architect, an objective architect can interoperate with other humans, but also with the agents, you know, in a hybrid environment.
+
+230
+00:38:07.750 --> 00:38:09.940
+carmelo iaria: I hope that makes sense.
+
+231
+00:38:10.060 --> 00:38:17.669
+Kimberly H: Yeah, it makes sense. I know that there have been a lot of news reports regarding a lot of AI projects failing.
+
+232
+00:38:17.860 --> 00:38:20.309
+Kimberly H: Why do you think that is?
+
+233
+00:38:21.490 --> 00:38:26.360
+carmelo iaria: I think it's because of this, Kimberly. I think it's because the first wave
+
+234
+00:38:26.730 --> 00:38:30.949
+carmelo iaria: It's been, a lot of technical people focusing on the speed.
+
+235
+00:38:31.620 --> 00:38:35.840
+carmelo iaria: And the…
+
+236
+00:38:36.160 --> 00:38:48.830
+carmelo iaria: you know, if I go back to the way I built my course, Kimberly, it's maybe helping you answer… helping me answer this question, because this is why I start with define the use case, and the first sprint
+
+237
+00:38:49.080 --> 00:39:01.820
+carmelo iaria: you know, if you're taking my course, basically, you're gonna see, and you invoke a product manager AI persona, and the first thing I'm going to ask you to do is to do market research about your idea.
+
+238
+00:39:01.990 --> 00:39:12.639
+carmelo iaria: And so that… there are some templates in this framework that allows these agents to create a very well-structured market research. And of course, there's a document that, you know, your colleague can read.
+
+239
+00:39:12.670 --> 00:39:22.059
+carmelo iaria: And you can read and critique and find, you know, fine-tune over time with working with the agents.
+
+240
+00:39:22.150 --> 00:39:25.350
+carmelo iaria: Then the next thing is to write a product requirement document.
+
+241
+00:39:26.120 --> 00:39:33.289
+carmelo iaria: And after that, you start building a solution architecture. So that defines it from a product perspective and a technical perspective, what you're gonna build.
+
+242
+00:39:33.400 --> 00:39:35.200
+carmelo iaria: Before started building.
+
+243
+00:39:35.390 --> 00:39:40.879
+carmelo iaria: And and this is a little bit of, you know, if you don't have that,
+
+244
+00:39:41.420 --> 00:39:44.109
+carmelo iaria: The methodology, and a little bit of,
+
+245
+00:39:44.260 --> 00:39:57.259
+carmelo iaria: The consistency of doing it this way, and you, you know, you start… there's a lot of people start vibe coding, because anybody, you know, the agents speed up lines of code at the speed of light, you know, and they look at the…
+
+246
+00:39:57.390 --> 00:40:00.870
+carmelo iaria: At a web page, the agent get done very quickly.
+
+247
+00:40:01.090 --> 00:40:07.660
+carmelo iaria: It's fun, it's very, you know, entertaining, it's very… it feels very productive, it feels, you know, things you get…
+
+248
+00:40:07.720 --> 00:40:23.550
+carmelo iaria: Things dump fast, but then what you end up happening in big organizations, they have product managers by coding a prototype, then throw it over the fence to the development team, and they kind of, you know, look at the code, it's kind of… it's not manageable, it's hard, you know, maybe there's a…
+
+249
+00:40:23.550 --> 00:40:34.719
+carmelo iaria: duplicate lines of code, because the agents, you know, they don't care about those kind of aspects, right? So they just… they just build the code, and it becomes very easy not to be manageable.
+
+250
+00:40:34.810 --> 00:40:40.369
+carmelo iaria: So that creates a technical depth, if you will. It creates additional friction.
+
+251
+00:40:40.620 --> 00:40:52.070
+carmelo iaria: And this is, I think, why this few projects are getting the light on day, right? Because you start… you get enthusiastic about spinning code very fast.
+
+252
+00:40:52.220 --> 00:40:56.659
+carmelo iaria: But you don't have a very structured way to actually build,
+
+253
+00:40:56.780 --> 00:41:00.850
+carmelo iaria: You know, just following the software development lifecycle, building products.
+
+254
+00:41:00.900 --> 00:41:18.170
+carmelo iaria: If you do, you know, what I'm advocating instead is something that follows the guidelines, and they, you know, do small incremental steps, you always control, you know, that you do small increments, and that the agents don't start, you know, spinning too much code. Essentially, I'm trying to
+
+255
+00:41:18.230 --> 00:41:35.850
+carmelo iaria: the way I teach my students to build this solution is actually giving less autonomy to the agents. And unfortunately, you know, not unfortunately, but the bias from the LLM providers, you see it every day, right? I mean, Oppos 4.6,
+
+256
+00:41:35.910 --> 00:41:43.879
+carmelo iaria: Codex 5.3, every day, you know, the foundational model… companies are spending trillions of dollars to do foundational models.
+
+257
+00:41:44.050 --> 00:41:53.409
+carmelo iaria: Their bias is to have more autonomy. So, you know, they praise the fact that now you have a swarm of agents, they can code for hours and multiple hours.
+
+258
+00:41:53.570 --> 00:41:58.190
+carmelo iaria: And that's all great, you know, from a capability perspective, but in order to actually
+
+259
+00:41:58.320 --> 00:42:03.930
+carmelo iaria: The code itself, you know, to be translated into business value, you need to do this in a maybe more structured way.
+
+260
+00:42:03.980 --> 00:42:18.419
+carmelo iaria: So I like to kind of take advantage of the intelligence of the best, you know, use always the best model, but doing a structured way with the agentic architecture kind of really orchestrate this, and so you can do incremental steps, you know, in a direction that you define.
+
+261
+00:42:18.580 --> 00:42:25.250
+carmelo iaria: Not just, you know, Coming back, you know, after a day, and seeing what the agents have done.
+
+262
+00:42:25.600 --> 00:42:31.020
+carmelo iaria: I think this is why, in this phase, you know, 2025,
+
+263
+00:42:31.320 --> 00:42:35.950
+carmelo iaria: We've seen a lot of enthusiasm, a lot of initiatives, but very little
+
+264
+00:42:36.120 --> 00:42:41.180
+carmelo iaria: results, but I think this is changing this, you know, 2026.
+
+265
+00:42:41.610 --> 00:42:47.470
+carmelo iaria: I think 2026 is gonna be, you know, there's a lot of people that are talking about same things I'm saying here.
+
+266
+00:42:47.640 --> 00:42:53.570
+carmelo iaria: And there's a lot of focus on context engineering, there's a lot of focus of,
+
+267
+00:42:53.700 --> 00:43:00.869
+carmelo iaria: you know, method to exchange, to, to, to, to structurally a bit more the work. So…
+
+268
+00:43:01.130 --> 00:43:04.399
+carmelo iaria: This is a little bit why I think we are where we are today.
+
+269
+00:43:05.780 --> 00:43:06.740
+Kimberly H: Thank you.
+
+270
+00:43:07.720 --> 00:43:09.969
+carmelo iaria: You're welcome, great questions, I love it.
+
+271
+00:43:16.050 --> 00:43:17.060
+carmelo iaria: Alright.
+
+272
+00:43:17.590 --> 00:43:18.770
+carmelo iaria: Anything else?
+
+273
+00:43:19.670 --> 00:43:20.830
+carmelo iaria: Anybody else?
+
+274
+00:43:24.560 --> 00:43:31.850
+carmelo iaria: If not, I want to thank you very much. I know your time is very precious, and it's not easy to…
+
+275
+00:43:32.220 --> 00:43:36.829
+carmelo iaria: to find time in our agenda, so really, really appreciate it. Thank you so much.
+
+276
+00:43:36.940 --> 00:43:38.029
+carmelo iaria: Thanks for joining.
+
+277
+00:43:39.130 --> 00:43:41.300
+Juan Carlos Arenas: Thank you, Carmelo. Great conversation.
+
+278
+00:43:42.020 --> 00:43:43.190
+carmelo iaria: Thank you, thank you.
+

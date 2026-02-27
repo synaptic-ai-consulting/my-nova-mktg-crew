@@ -1,0 +1,1250 @@
+WEBVTT
+
+00:00:13.000 --> 00:00:17.000
+Hello, everybody. My name is Camero Yari, I'm a.
+
+00:00:17.000 --> 00:00:21.000
+Founder, CEO of Synaptic AI Consulting is a consulting firm.
+
+00:00:21.000 --> 00:00:30.000
+building an AI application for enterprises. But today, we're… it's a special lightning lesson.
+
+00:00:30.000 --> 00:00:33.000
+Uh, that we do in partnership with Maven and Agent.ai.
+
+00:00:33.000 --> 00:00:40.000
+And I'm particularly excited about today because I can see there's been a trend.
+
+00:00:40.000 --> 00:00:46.000
+in the industry, it's been led by software development in turning our.
+
+00:00:46.000 --> 00:00:58.000
+knowledge work agentic. Uh, but this trend is now expanding beyond software development and technical jobs, so… I'm pretty excited about sharing with you a little bit of some of the things I've built.
+
+00:00:58.000 --> 00:01:10.000
+For, uh, for the session. I hope you're gonna join the call and have a great, uh… Interact a session, so… Uh, to get started, what we're gonna… we're gonna start looking at the…
+
+00:01:10.000 --> 00:01:15.000
+Paradigm shift. What happens with AI? I think 2026, everybody.
+
+00:01:15.000 --> 00:01:21.000
+who has not been living under a storm, seeing this impact in their lives and their jobs.
+
+00:01:21.000 --> 00:01:27.000
+Uh, for the past 3 years, but things… how AI is impacting the job is changing, and it's changing very fast.
+
+00:01:27.000 --> 00:01:35.000
+And so we're going to see the shift from chat and interaction with an LLM to delegation and orchestrating multiple agents.
+
+00:01:35.000 --> 00:01:42.000
+Uh, we're gonna look at… see why this is important, why this authentic layer is, uh, is really impacting.
+
+00:01:42.000 --> 00:01:46.000
+It's going to change in the way the work is being done.
+
+00:01:46.000 --> 00:01:59.000
+Uh, these days. And… The nice part of this presentation I'm going to get to a framework, and I'm going to get to a tool that I created to… that you can start using immediately. So, something very concrete.
+
+00:01:59.000 --> 00:02:02.000
+Easy to install, they can really transform the way you're doing work.
+
+00:02:02.000 --> 00:02:17.000
+And you're gonna live with the… with a plan, with a plan to implement this for SOP, so… Let's get started with the problem with the chat. So… Uh, again, I call this Gen 1 of conversational AI, or generated AI.
+
+00:02:17.000 --> 00:02:25.000
+it's kind of what everybody's been using now. You ask a question to ChatGPT, you get an answer, copy-paste, repeat.
+
+00:02:25.000 --> 00:02:32.000
+You do all this work, it's very manual. And, um, it's very magical at the beginning, it's very exciting.
+
+00:02:32.000 --> 00:02:41.000
+Uh, but, uh, you start becoming the bottleneck. you started losing the context in the sessions, in the conversation that you have.
+
+00:02:41.000 --> 00:02:49.000
+Uh, sometimes you have some Chinese stories, but uh… It's, uh, at least I get the feeling that my work is kind of trapped somewhere.
+
+00:02:49.000 --> 00:02:58.000
+Uh, in a place that's not easily accessible to me. It's a little bit of a context that I leave inside the, sort of, judging infrastructure.
+
+00:02:58.000 --> 00:03:03.000
+Uh, the other thing is that it's not built in, it's not compounding my work, it's really.
+
+00:03:03.000 --> 00:03:06.000
+Uh, one shot at a time, there is no memory across, there is no learning.
+
+00:03:06.000 --> 00:03:10.000
+And this has been kind of the reality today.
+
+00:03:10.000 --> 00:03:15.000
+What I've seen the shift, and again, as a technical person.
+
+00:03:15.000 --> 00:03:19.000
+I've been working this into software development, I see this.
+
+00:03:19.000 --> 00:03:30.000
+firsthand by building solutions. we're shifting now in the new world, where we go from chat to delegation. And this world is really enabled by the, uh.
+
+00:03:30.000 --> 00:03:35.000
+evolution of the technology into this layer, which I call the agentic layer.
+
+00:03:35.000 --> 00:03:42.000
+So, uh, if you wanted to call this Generation 2, uh, Gen AI is about Agent.
+
+00:03:42.000 --> 00:03:48.000
+projecting tools. And, uh, so in this… in this context, the AI, it doesn't just.
+
+00:03:48.000 --> 00:03:55.000
+give you answer the AI and the agents in particular, they actually take actions. They can use tools, they can access.
+
+00:03:55.000 --> 00:03:59.000
+your files, they can edit documents, they can pull the context of your work.
+
+00:03:59.000 --> 00:04:08.000
+Uh, and really, they work with you. together with you in a collaborative way, not just providing an answer as we're doing the previous.
+
+00:04:08.000 --> 00:04:17.000
+generation. So, this is, um, again, this has been happening for technical roles, but more importantly, it's happening now for.
+
+00:04:17.000 --> 00:04:25.000
+non-technical work. Can you start becoming, instead of an executor, somebody that actually you need to write reports, or need to create a document.
+
+00:04:25.000 --> 00:04:30.000
+that does that with the assistance of an AI chatbot.
+
+00:04:30.000 --> 00:04:36.000
+you start to orchestrate and become sort of an architect, where really you coordinate, uh.
+
+00:04:36.000 --> 00:04:40.000
+teams of agents that do the work for you.
+
+00:04:40.000 --> 00:04:46.000
+I want to spend a couple of minutes on this concept, where I wrote a paper about this, an article about this.
+
+00:04:46.000 --> 00:04:49.000
+And it's really important to understand the different layers.
+
+00:04:49.000 --> 00:04:53.000
+And, um, I make the analogy here, if you were to build a house.
+
+00:04:53.000 --> 00:05:00.000
+Of course, you're going to start from the foundation, like choosing the quality material. That's the layer one at the bottom.
+
+00:05:00.000 --> 00:05:05.000
+And this layer in agentic work is provided by the foundational model.
+
+00:05:05.000 --> 00:05:15.000
+JobGPT, or GPT-5, Cloud, Gemini. Oppos. Those are models that very few companies have the capacity to invest enough.
+
+00:05:15.000 --> 00:05:19.000
+money and energy and time to actually build this foundational wealth.
+
+00:05:19.000 --> 00:05:22.000
+And they provide the raw intelligence, if you will.
+
+00:05:22.000 --> 00:05:29.000
+they get smarter every day. Uh, but you don't have to do anything about that, so you kind of inherited that.
+
+00:05:29.000 --> 00:05:35.000
+by selecting and using some of these models. Uh, it's a very important layer, but that's not sufficient.
+
+00:05:35.000 --> 00:05:43.000
+Uh, the second layer is the one that is being emerging over the past 12-15 months, I think.
+
+00:05:43.000 --> 00:05:55.000
+And this is really the agentic layer. Again, there's some companies that are building this for you, and although you could build this for yourself, but this, of course, requires technical knowledge.
+
+00:05:55.000 --> 00:06:01.000
+Now, these days, you start having tools that have this layer built in, and this, uh, Agentic layer is like having a scale contractor.
+
+00:06:01.000 --> 00:06:08.000
+Somebody that knows what to do in each situation, the circumstances.
+
+00:06:08.000 --> 00:06:16.000
+how they execute the plans, how they validate the plans. And so this is really a new layer that's important, and it's something that.
+
+00:06:16.000 --> 00:06:21.000
+you need to learn how to deal with and how to manage this layer.
+
+00:06:21.000 --> 00:06:27.000
+Now, the important piece, which is really the top one, is the Layer 3, what I call the context layer.
+
+00:06:27.000 --> 00:06:34.000
+This is really… it's very specific to. to your, uh, activity, to your work.
+
+00:06:34.000 --> 00:06:37.000
+Now, this is also where you bring the competitive advantage in this world where.
+
+00:06:37.000 --> 00:06:42.000
+so many tasks, so many skills started being commoditized by the AI.
+
+00:06:42.000 --> 00:06:46.000
+Those are the project rules, the pattern, the knowledge.
+
+00:06:46.000 --> 00:06:49.000
+It's like, sort of, the architectural plan, what kind of house you want to build.
+
+00:06:49.000 --> 00:06:54.000
+And this is really where you kind of shine, and this is something that, uh, it's really to.
+
+00:06:54.000 --> 00:07:00.000
+take away from you. This is a little bit mental framework that I've been using.
+
+00:07:00.000 --> 00:07:08.000
+So that you understand the different layers. Uh, the context engineering, the context layer is very important.
+
+00:07:08.000 --> 00:07:20.000
+Because without content, the AI is making generic decisions. There's no prevalent memory about your preferences. Every session starts from scratch, you kind of repeat yourself constantly.
+
+00:07:20.000 --> 00:07:27.000
+Yeah, because if you don't provide the context to the… to the AI, to the tools, LLMs.
+
+00:07:27.000 --> 00:07:33.000
+That's a little bit frustrating experience that you're going to experience. Probably most of you have gone through.
+
+00:07:33.000 --> 00:07:38.000
+this kind of experience. When you bring the context into the play… into the picture, now.
+
+00:07:38.000 --> 00:07:44.000
+Yeah, I start to understand the way you were working. You start to understand… you kind of build some memory.
+
+00:07:44.000 --> 00:07:50.000
+that, uh, it's a context, essentially, that the eye can latch on to actually do work.
+
+00:07:50.000 --> 00:07:55.000
+In a continuous way for prolong… for more longer time.
+
+00:07:55.000 --> 00:08:00.000
+It really builds on the previous project, on previous work, that gets smarter over time.
+
+00:08:00.000 --> 00:08:07.000
+It's something that you can accumulate. This is really the layer where you create the value, and it's project-specific.
+
+00:08:07.000 --> 00:08:12.000
+And it can be copied. It's really something that you… where you have a key differentiator.
+
+00:08:12.000 --> 00:08:22.000
+Um, now, like I said before, this experience, the way… the reason why I perceived this transition is because this has happened in the software development environment.
+
+00:08:22.000 --> 00:08:27.000
+Um, I have a Maven course where I teach a method.
+
+00:08:27.000 --> 00:08:31.000
+So that software developers can use this multiple agents.
+
+00:08:31.000 --> 00:08:34.000
+to build their code, so they're constrained multiple agents.
+
+00:08:34.000 --> 00:08:40.000
+And so, I've seen this… the transformation of the software development work happening.
+
+00:08:40.000 --> 00:08:44.000
+in real time, over the past two, three years, right?
+
+00:08:44.000 --> 00:08:51.000
+And so, uh, 2024-25, we've seen this happen in the development environment.
+
+00:08:51.000 --> 00:08:57.000
+So we started seeing tools like Cursor, GitHub Copilot, that really transformed the way people are doing coding.
+
+00:08:57.000 --> 00:09:03.000
+Uh, engineers get a lot of productivity. The multi-agent systems become standards.
+
+00:09:03.000 --> 00:09:10.000
+But really, so far, it's something that only the software government, the technical people have been taking advantage of.
+
+00:09:10.000 --> 00:09:15.000
+Now, the question is really, what if this was… wasn't just for developers? What if this.
+
+00:09:15.000 --> 00:09:22.000
+approach this three-layer framework. could actually be applicable to any knowledge board.
+
+00:09:22.000 --> 00:09:29.000
+And this is where I think it's getting exciting. 2026, because we started very strong on this idea, and I'll bring in here a couple of.
+
+00:09:29.000 --> 00:09:32.000
+proof points, you know, you might have read about.
+
+00:09:32.000 --> 00:09:38.000
+the legal team atropic is one of the companies that built one of the most powerful LLMs.
+
+00:09:38.000 --> 00:09:44.000
+and models. But they actually tested inside their house.
+
+00:09:44.000 --> 00:09:50.000
+That non-coder started building a JT workflow using the same tools.
+
+00:09:50.000 --> 00:09:58.000
+same structure that the culture would do. And so, this is a little bit of the story, so they built this workflow using a clog code, even if they didn't know how to code.
+
+00:09:58.000 --> 00:10:08.000
+And, uh, they cut marketing review from, you know, 2-3 days to, you know, under 24 hours. So, uh, and this is, again, for non-technical legal team controlling.
+
+00:10:08.000 --> 00:10:18.000
+This is proof point number two. Um… I wanted to, you know, it's about cold work.
+
+00:10:18.000 --> 00:10:23.000
+You might have heard about this, uh… this is another product that Anthropicus, uh.
+
+00:10:23.000 --> 00:10:28.000
+released in January, and it's built on the Claw Call Foundation as designed for non-technical users.
+
+00:10:28.000 --> 00:10:34.000
+Uh, and the nice thing is that this mode of using the same arginic harness.
+
+00:10:34.000 --> 00:10:39.000
+It helps you work with your files, with your folders, with your documents.
+
+00:10:39.000 --> 00:10:45.000
+And you just give you structural in plain English to these agents that use LLM, you know, underneath.
+
+00:10:45.000 --> 00:10:55.000
+So essentially, you know, fill expense reports, starting from photos, you can just put a photo and do the work for you. You can write reports from some of the notes.
+
+00:10:55.000 --> 00:11:01.000
+Uh, maybe listen to some of the meetings, and from the transcription creates.
+
+00:11:01.000 --> 00:11:11.000
+So it just helps people, uh, is a co-working, uh… tool that helps non-technical people to take most advantage of this agentic AI.
+
+00:11:11.000 --> 00:11:23.000
+working, uh, working… working approach. So it can organize folders, it can clean up your desktop. It's really doing all these things, you know, you don't have to code, you just instruct.
+
+00:11:23.000 --> 00:11:24.000
+We'll request the agents to do this for you.
+
+00:11:24.000 --> 00:11:30.000
+And again, this is the signal that I was mentioning, that now this way of working.
+
+00:11:30.000 --> 00:11:35.000
+orchestrating agents that do the work for you is something that is going beyond technical reality.
+
+00:11:35.000 --> 00:11:41.000
+Right? Uh, most recently, actually, this very month, you know, February, OpenAI just launched Frontier.
+
+00:11:41.000 --> 00:11:48.000
+this is another signal that AI, it's really betting big on agentic AI in the enterprise.
+
+00:11:48.000 --> 00:11:56.000
+for real, uh, building energetic solution that helps. workers in enterprise, uh, enterprise environment to do their job.
+
+00:11:56.000 --> 00:11:58.000
+And so this is a signal that it's also.
+
+00:11:58.000 --> 00:12:05.000
+very important, and it's been applied in many, many different verticals, from manufacturing.
+
+00:12:05.000 --> 00:12:14.000
+financial firms, energy, and so forth. So those are, uh, three… uh, through signal that I think that kind of proved the point that I was trying to make.
+
+00:12:14.000 --> 00:12:19.000
+about the shift in the way we're working with AI in an agentic fashion.
+
+00:12:19.000 --> 00:12:29.000
+Again, the transition in the market, it's really strong, and this is going to impact, I think, significantly all the.
+
+00:12:29.000 --> 00:12:36.000
+productivity tools that we use today, because all those tools, Word, Excel, PowerPoint, all those are applications that have been built.
+
+00:12:36.000 --> 00:12:43.000
+by, uh, you know, big companies for, uh, users, for human users to, to work.
+
+00:12:43.000 --> 00:12:48.000
+And so they have user interfaces that are, uh, expect to have a human on the other side.
+
+00:12:48.000 --> 00:12:53.000
+Now, the world is going to change. This is actually changing already right now, and the agents are doing the work.
+
+00:12:53.000 --> 00:12:56.000
+And you are going to orchestrate the agent to the reward.
+
+00:12:56.000 --> 00:13:01.000
+So, these tools essentially become invisible to you as a human. You don't have to.
+
+00:13:01.000 --> 00:13:08.000
+drop and drag, or click, or execute something on a user interface. You can delegate the work to the agents.
+
+00:13:08.000 --> 00:13:13.000
+This is a dramatic shift. This is a very big shift, and it's going to have a huge impact.
+
+00:13:13.000 --> 00:13:18.000
+in the entire, you know, software productivity tools for enterprise, I think.
+
+00:13:18.000 --> 00:13:25.000
+Um, this is, again, the, uh, the promise, again, of this new agentic world.
+
+00:13:25.000 --> 00:13:28.000
+Now, one thing that I wanted to observe, or that I've been thinking about, is that.
+
+00:13:28.000 --> 00:13:37.000
+Because this transition started with software development. The tools that are most powerful today are cursor or code, or Copilot.
+
+00:13:37.000 --> 00:13:40.000
+And those are tools that are built for developers.
+
+00:13:40.000 --> 00:13:48.000
+Uh, so if you… I don't know if any of you have been using Person, or if you downloaded or seen the interface. I'm going to show you later.
+
+00:13:48.000 --> 00:13:50.000
+to show you the tool that I'm going to present.
+
+00:13:50.000 --> 00:13:59.000
+It can be intimidating, because there's… so many things that, uh, are… design and thought for software developers.
+
+00:13:59.000 --> 00:14:05.000
+And that's not something that the average knowledge worker is accustomed, or it's at ease with, right?
+
+00:14:05.000 --> 00:14:13.000
+Now, if you think about it, and I read a post which is by another Maven instructor, which is excellent.
+
+00:14:13.000 --> 00:14:19.000
+really demystifying a little bit about this challenge, if you will, of this problem.
+
+00:14:19.000 --> 00:14:22.000
+And if you think about it, you're going to see in the demo.
+
+00:14:22.000 --> 00:14:27.000
+cursor, essentially, it's like having multiple tools, like a file explorer. You can navigate your folders.
+
+00:14:27.000 --> 00:14:47.000
+your new files in your computer. Uh, you can write, and you have a text editor, maybe today you do it in a Word environment, but there you can use, um… You know, the same things that you would do maybe on a Notion page, using Markdown, and then you have an AI chat that brings the agents and the LLMs and the models.
+
+00:14:47.000 --> 00:14:51.000
+underneath to… for you to actually instruct and do the work.
+
+00:14:51.000 --> 00:15:00.000
+It's not very complicated at the end of the day. You can use, of course, for developing code, but that's probably for very powerful power users.
+
+00:15:00.000 --> 00:15:05.000
+Uh, but right now, think about this first interface just as something that is very easy.
+
+00:15:05.000 --> 00:15:10.000
+Basically, three things you already do today, they're just combining one interface.
+
+00:15:10.000 --> 00:15:18.000
+And so, what I thought about is, uh, okay, we have these tools. Today, they're not designed, although there's companies that start thinking about this.
+
+00:15:18.000 --> 00:15:27.000
+They're not designed for non-developers. But how can we take advantage of the tools that we have today, the cursor, for example, in this case.
+
+00:15:27.000 --> 00:15:32.000
+that I'm going to show you. So, I thought, how can we bridge this gap? How do we make something.
+
+00:15:32.000 --> 00:15:39.000
+accessible to really everybody. And this is where I wanted to present to you, uh.
+
+00:15:39.000 --> 00:15:48.000
+The small project I did this month. check on Nova. It's a crew builder. Essentially, it's an energetic work crew builder.
+
+00:15:48.000 --> 00:15:58.000
+Essentially, something I'm going to show you how to install in your machine, and it actually is a wizard, if you will, that can actually build the proof for you.
+
+00:15:58.000 --> 00:16:07.000
+Depending on the job that you're doing. It sounds a little bit magic, and it is a little bit magic if you think about it. I'll go and show you how it works.
+
+00:16:07.000 --> 00:16:13.000
+So, what does NOVA do? Nova really helps you to build this personal team of AI systems.
+
+00:16:13.000 --> 00:16:16.000
+tailored to your job, or whatever job you're doing.
+
+00:16:16.000 --> 00:16:23.000
+You don't have to know cold, but in your U control, you stay in control. Once you have built your team of assistants.
+
+00:16:23.000 --> 00:16:28.000
+you start doing the work, delegating tasks. And having them do the work for you.
+
+00:16:28.000 --> 00:16:34.000
+So, uh, you know, first thing you describe the role, kind of the challenges, your context a little bit.
+
+00:16:34.000 --> 00:16:38.000
+NOVA, this wizard. designed the crew of specialists.
+
+00:16:38.000 --> 00:16:45.000
+And each AI persona has a clear role. that those specific tasks.
+
+00:16:45.000 --> 00:16:51.000
+And, uh, it works inside cursor, because right now it's kind of the simplest way to get started.
+
+00:16:51.000 --> 00:16:58.000
+Uh, because cursor brings. like I said before, a number of tools together in one interface.
+
+00:16:58.000 --> 00:17:04.000
+But most importantly, it brings all the agentic layer, it's a very advanced agentic layer, and the LLMs.
+
+00:17:04.000 --> 00:17:14.000
+you basically kind of don't need to know what is the best LLM to do this job, or that job, or how much… how many talkers I'm using now, how much this is going to cost me.
+
+00:17:14.000 --> 00:17:19.000
+You have a very structured, very controlled environment, something that you can easily use.
+
+00:17:19.000 --> 00:17:24.000
+kind of a distracting, the Layer 1 and Layer 2 of the… of the three-layer framework that I was talking about.
+
+00:17:24.000 --> 00:17:32.000
+And focusing on your job. The other thing that I like about this, like I said before, it really… everything stays in your machine.
+
+00:17:32.000 --> 00:17:45.000
+all the document, the artifacts that the agents are creating, they stay in your folder, you can organize them the way you want, you can ask the agent to change the organization to update them, to keep track of the plan, and really.
+
+00:17:45.000 --> 00:17:52.000
+work as if you had a small team working for you inside the cursor ID.
+
+00:17:52.000 --> 00:17:59.000
+That's a little bit about how it works. And, um, again, it's powerful because, uh, you get the latest and greatest LLMs.
+
+00:17:59.000 --> 00:18:02.000
+You don't have to pick or choose any of those.
+
+00:18:02.000 --> 00:18:10.000
+Um, tomorrow, you know, last week, uh, Anthropic release Oppos 4.6 is.
+
+00:18:10.000 --> 00:18:20.000
+amazing, uh, OpenAI release of. GPT 503, you don't need to know necessarily everything that's going on behind the scenes, you know, the tool.
+
+00:18:20.000 --> 00:18:26.000
+picks the right, uh, the right agent for you, the right LLMs for you, I should say.
+
+00:18:26.000 --> 00:18:33.000
+And, uh, it also has a way to. automatically select based on the task that you need to do.
+
+00:18:33.000 --> 00:18:39.000
+And so, because the cost of the tokens changes over time, because the capabilities of the LLMs.
+
+00:18:39.000 --> 00:18:47.000
+Shintoku time. This… it's a little bit complex to keep in your mind, or even in a cheat sheet, a little bit of the rules which models to use.
+
+00:18:47.000 --> 00:18:55.000
+Now, using a tool like this, you don't have to think about this. You can put it in auto mode, and the selections done automatically for you in order to.
+
+00:18:55.000 --> 00:19:00.000
+maximize the number of tokens that you use every month within your plan.
+
+00:19:00.000 --> 00:19:07.000
+Um, you can use the free plan if you want, that's a small limit that you have, or you can use the $20 per month for service.
+
+00:19:07.000 --> 00:19:13.000
+And, uh, you can do plenty of work with the $20, you never can exceed that if you don't want to.
+
+00:19:13.000 --> 00:19:21.000
+So, uh, this will be about, you know, the nice thing about working with InCursor. I've been doing this, again, for software development, but also.
+
+00:19:21.000 --> 00:19:32.000
+more and more for non… for non-technical work. And, uh, again, you… the work stay local, you approve everything, you have a team of specialized agents.
+
+00:19:32.000 --> 00:19:41.000
+And all the work compounds, and the knowledge compounds so that not only you can progress, but also the agent will work for you understand the context.
+
+00:19:41.000 --> 00:19:47.000
+of your day-to-day job. So this is a little bit about NOVA.
+
+00:19:47.000 --> 00:19:58.000
+Um, how does it do that? You know, so this agent that kind of builds this, uh… crew of agents for you. Essentially, it goes through a four-step process.
+
+00:19:58.000 --> 00:20:04.000
+So the first thing is you're gonna… you're gonna tell the nobody it's what is your job.
+
+00:20:04.000 --> 00:20:08.000
+Uh, now, once you have inputted that, then Novo identifies.
+
+00:20:08.000 --> 00:20:13.000
+What are the key work activities? It uses standard international standards to actually.
+
+00:20:13.000 --> 00:20:18.000
+map and understanding. what the key activities are associated with that particular job.
+
+00:20:18.000 --> 00:20:24.000
+And so, uh, that's… that's defining the role, uh, that's the step number one.
+
+00:20:24.000 --> 00:20:29.000
+Step number two is defining the task. And so it breaks down the tasks that are required in order to do the job.
+
+00:20:29.000 --> 00:20:33.000
+And, um, and really, you know, finds opportunities to actually.
+
+00:20:33.000 --> 00:20:36.000
+and assist you with the, with the AI agents.
+
+00:20:36.000 --> 00:20:42.000
+Once you define, you can actually tell Nova if you… if you're okay with the plan, with the list of tasks.
+
+00:20:42.000 --> 00:20:52.000
+that your crew is gonna execute. Maybe you want to delete some, maybe you want to add some, you can do that interactively, just talking to the agent.
+
+00:20:52.000 --> 00:21:04.000
+And once you approve the plan, then crew. then Nova just builds the crew and designs the crew, and maybe just suggest two, three to seven, maximum seven teammates, if you will.
+
+00:21:04.000 --> 00:21:09.000
+That really has a specialized role. and has clear boundary responsibilities.
+
+00:21:09.000 --> 00:21:14.000
+that is going to start working alongside with you inside this interface.
+
+00:21:14.000 --> 00:21:21.000
+Once you have that… the team, then basically, uh, you have, uh, you have this team, and you can start.
+
+00:21:21.000 --> 00:21:31.000
+I'll show you in a little bit about, uh… Actually, why don't I, uh… This is an implementation step. I'm going to show you this later.
+
+00:21:31.000 --> 00:21:42.000
+So why don't I do this? Why don't I go… straight to, um… to the interface.
+
+00:21:42.000 --> 00:21:48.000
+And, uh, let's see…
+
+00:21:48.000 --> 00:21:56.000
+Okay, so this, uh, this screen is a black screen, so I have an, I'm in dark mode, I was thinking about changing the background, but.
+
+00:21:56.000 --> 00:21:58.000
+I hope you can see, uh, maybe I can do a little bit.
+
+00:21:58.000 --> 00:22:04.000
+Little bit of Zoom here. It's a little bit simple. Uh, so this is actually the cursor.
+
+00:22:04.000 --> 00:22:12.000
+interface, and like I said, it can be intimidating, there's a lot of different things, but if you wanted to think about it, see, there's.
+
+00:22:12.000 --> 00:22:20.000
+two bars here that separates these three sections. Um, so this one here is on the left.
+
+00:22:20.000 --> 00:22:32.000
+Is the file explorer, if you will? You know, this is a now… is my, uh… project name, it's… I call my Nova Project, and it's empty, nothing here, right?
+
+00:22:32.000 --> 00:22:37.000
+So I basically started a new project, and I want to install Nova in this environment.
+
+00:22:37.000 --> 00:22:43.000
+Uh, so here you have the file explorer, here you're gonna see the editor, so you can type, you can write things.
+
+00:22:43.000 --> 00:22:47.000
+And on this side, you have the interaction with the agents.
+
+00:22:47.000 --> 00:22:55.000
+Uh, you can actually open multiple windows, so you can actually talk to multiple agents at the same time.
+
+00:22:55.000 --> 00:22:59.000
+And, uh, you can see here the agents now are in auto mode.
+
+00:22:59.000 --> 00:23:05.000
+Uh, and I'm living in Northamont for the reasons that I mentioned before. You get the benefits of, uh.
+
+00:23:05.000 --> 00:23:11.000
+a number of advanced tools to select the best model for the task.
+
+00:23:11.000 --> 00:23:21.000
+that the agency infer. But if you want, you can actually pick any model, you can add model, you can have local models, it's pretty complex and comprehensive.
+
+00:23:21.000 --> 00:23:27.000
+So just keep it at auto for now. I'm not going to go into the interface, to define, you know, to describe.
+
+00:23:27.000 --> 00:23:34.000
+I'm just gonna walk you through the steps that I would do if I wanted to, in this project environment.
+
+00:23:34.000 --> 00:23:38.000
+start, uh, install NOVA. and start working with it, okay?
+
+00:23:38.000 --> 00:23:56.000
+And so, the first thing I'm going to do… I'm going to pick, uh… distillation of very… In a very simple way, which is essentially, uh… Uh, let me see here… I'm gonna drag… I'm gonna select some, uh…
+
+00:23:56.000 --> 00:23:59.000
+files that I have installed in my machine already.
+
+00:23:59.000 --> 00:24:03.000
+And you can download this from a GitHub repo I'll show you later now.
+
+00:24:03.000 --> 00:24:11.000
+But here, I just drag and drop, I have it in another window, but, uh, you can see here now, I'm just going to copy this into this folder.
+
+00:24:11.000 --> 00:24:16.000
+Right? Of course, you can do this in your machine with, you know, traditional file.
+
+00:24:16.000 --> 00:24:19.000
+But this was very easy just to drag, uh.
+
+00:24:19.000 --> 00:24:23.000
+And basically, you know, the artifacts here in the screen.
+
+00:24:23.000 --> 00:24:28.000
+And, uh, what do you have here now is actually the entire.
+
+00:24:28.000 --> 00:24:35.000
+NOVA builder that you already have it installed in this environment. That's all. That's all I had to do. I had to drag these folders.
+
+00:24:35.000 --> 00:24:44.000
+And, um, in files. And I can have here… I can select greet me, I can see here this is a marked-down document.
+
+00:24:44.000 --> 00:24:52.000
+Uh, if you want, I can, uh… I can open in preview, it's a little bit easier to read, and I can read what this document says, right?
+
+00:24:52.000 --> 00:24:56.000
+gives you an overview, how to install it, what you get.
+
+00:24:56.000 --> 00:25:01.000
+the use of the project context folders, how you're going to use that.
+
+00:25:01.000 --> 00:25:08.000
+different… what's in this repository. you know, this is a little bit of a, if you will, an overview about NOVA.
+
+00:25:08.000 --> 00:25:15.000
+Um, there is an install guide. Uh, you're also gonna get there? You can see here in the preview.
+
+00:25:15.000 --> 00:25:18.000
+it's, uh, give you a little bit of a step-by-step.
+
+00:25:18.000 --> 00:25:25.000
+you're going to install the cursor IDE, and then you're going to store, uh, store the… install these files.
+
+00:25:25.000 --> 00:25:35.000
+Um, and you can start, um, you know, I've done this step 3, add the WCB. Wcb stands for Work Crew Builder.
+
+00:25:35.000 --> 00:25:39.000
+Uh, agent, that's the name I gave to the agents in the files.
+
+00:25:39.000 --> 00:25:41.000
+And so you can see here, this is the structure.
+
+00:25:41.000 --> 00:25:49.000
+Uh, and this file, which is up here, WCB agent.md, this is the file that described the Nova agent.
+
+00:25:49.000 --> 00:25:52.000
+That actually is going to help you build the things.
+
+00:25:52.000 --> 00:25:57.000
+And so, um, if I wanted to, let's just say I wanted to.
+
+00:25:57.000 --> 00:26:02.000
+start using this, right? I have here some additional files that give me kind of the rules and.
+
+00:26:02.000 --> 00:26:06.000
+how this builder's gonna work. You don't have to worry about those right now.
+
+00:26:06.000 --> 00:26:17.000
+All I wanted to show, for example, if I… let me close this one here, so you don't, uh… Pay attention to what I'm going to do here.
+
+00:26:17.000 --> 00:26:31.000
+Uh, I can, uh… I can invoke, so I'm going to ask at… WCB… Uh, no, actually, let me just, uh… Select this first.
+
+00:26:31.000 --> 00:26:43.000
+Swap that into context. Um… You can see here that actually it suggests already this file. This is WCDB agent work.
+
+00:26:43.000 --> 00:26:50.000
+Work crew builder agent. Um, so essentially, I invoked, I called this agent, which is Nova.
+
+00:26:50.000 --> 00:26:58.000
+And, uh, this is… describe what NOVA does, right, in this file, uh, describe, uh, basically how this is going to work.
+
+00:26:58.000 --> 00:27:04.000
+But, um, I don't want to read all this stuff, I just want to… I just want to ask Nova now.
+
+00:27:04.000 --> 00:27:11.000
+Um, you know. Helped me, uh, build a work group.
+
+00:27:11.000 --> 00:27:14.000
+So, uh, I'm going to start chatting with Nova now.
+
+00:27:14.000 --> 00:27:19.000
+And, uh, he's gonna see all this reference, so he's gonna start to understand.
+
+00:27:19.000 --> 00:27:25.000
+What needs to be done, what is the next step that needs to be done?
+
+00:27:25.000 --> 00:27:30.000
+And so, it's actually reading the files, you're reading the rules.
+
+00:27:30.000 --> 00:27:37.000
+Within the contacts that are in this file, so this is what an agent does when he collaborates with you.
+
+00:27:37.000 --> 00:27:46.000
+And, uh, it gives me a prompt, it gives me a chat. It started to chat with me, right? So… will be present here from NOVA, you work through Builder.
+
+00:27:46.000 --> 00:27:49.000
+And I designed a custom AI crew that help you with your work.
+
+00:27:49.000 --> 00:27:55.000
+So the things that you'd ask, maybe I can give more or less, uh.
+
+00:27:55.000 --> 00:28:01.000
+context, but let's just say I want to do a crew for marketing.
+
+00:28:01.000 --> 00:28:07.000
+marketing manager, or maybe I'm a marketing manager working at a small.
+
+00:28:07.000 --> 00:28:12.000
+Uh, agency.
+
+00:28:12.000 --> 00:28:19.000
+Uh, in US. So, all I'm gonna say, this is kind of my job for now, right? A little bit of a context.
+
+00:28:19.000 --> 00:28:28.000
+And so, uh, this is the first question. The… then it's gonna ask me a few more questions to get more context, right?
+
+00:28:28.000 --> 00:28:34.000
+So, it's asking, what kind of agency? So, say, advertising.
+
+00:28:34.000 --> 00:28:45.000
+Um… I've got to say 10 people. And the big pain point is content creation.
+
+00:28:45.000 --> 00:28:53.000
+And maybe, and social. Media management.
+
+00:28:53.000 --> 00:29:02.000
+Okay, so let me… let me just, uh… mentioned that to Nova, so I'll give you some context, so he knows the role.
+
+00:29:02.000 --> 00:29:11.000
+He knows a little bit about the context. And, um, is… right now, it's analyzing the ONET framework to identify which task.
+
+00:29:11.000 --> 00:29:16.000
+are relevant for the job that I'm doing. So, it refers this industry framework.
+
+00:29:16.000 --> 00:29:22.000
+So that it can define which task. And which… that this crew is gonna execute.
+
+00:29:22.000 --> 00:29:28.000
+And so you can see here, it's categorizing the tasks. So the first one is content quiz and Strategy.
+
+00:29:28.000 --> 00:29:34.000
+And he's got 5 tasks? research and generated content ideas, write social media posts.
+
+00:29:34.000 --> 00:29:42.000
+read content briefs, and so forth. Another category is the social media management. Those are the two big pain points I mentioned.
+
+00:29:42.000 --> 00:29:47.000
+And it's got another 5 tasks, so the task of planning, schedules, social media posts.
+
+00:29:47.000 --> 00:29:51.000
+drop social media and so forth. So all those activity.
+
+00:29:51.000 --> 00:29:56.000
+that then he's gonna map to specific agents. Uh, client communication reporting.
+
+00:29:56.000 --> 00:30:02.000
+campaign planning and analysis, administrative and coordination. So, we actually identified.
+
+00:30:02.000 --> 00:30:12.000
+20 tasks. Now, I can, uh, chat with Nova and understand, okay, I don't care about this, or maybe you missed something, right? I can improve this, uh.
+
+00:30:12.000 --> 00:30:21.000
+this tool, this list. Um… but, uh, you know, I can just say approved for now, just for simplicity for the demo.
+
+00:30:21.000 --> 00:30:27.000
+And basically, he's gonna… He is going to know that I'm okay with the list of 21 tasks.
+
+00:30:27.000 --> 00:30:35.000
+that, uh, that is designed. Now, the next question is going to ask me is very important, because, uh, and I'll try to add this, uh.
+
+00:30:35.000 --> 00:30:39.000
+Because you can use these tools. with different level of autonomy.
+
+00:30:39.000 --> 00:30:46.000
+Um, and the more autonomy you give to the crew, the less they're going to bother you, but also you have less control.
+
+00:30:46.000 --> 00:30:53.000
+So, I think the default. Uh, that I put, and I think it's always a good way to start.
+
+00:30:53.000 --> 00:31:04.000
+I want them to… I want to give the school lower autonomy, especially at the beginning. I don't know what they're going to build, how they work, so I can always change this later when I have more confidence.
+
+00:31:04.000 --> 00:31:14.000
+But right now, I want to start with low autonomy, so that means that the agents always ask me before taking action, they always put the output… present the output.
+
+00:31:14.000 --> 00:31:24.000
+They suggested without executing independently. And this is a very important because, um, you know, depending on the context, some of the work can be high-stake decisions, or maybe.
+
+00:31:24.000 --> 00:31:29.000
+uh, sensitive work, but also, like I said, you know, in the learning stage, it's also always good to.
+
+00:31:29.000 --> 00:31:35.000
+to have, uh, try to build this trust, try to feel a little bit about these agents, how they do it.
+
+00:31:35.000 --> 00:31:40.000
+And so, I'm just gonna… I'm just gonna give a low autonomy to this crew.
+
+00:31:40.000 --> 00:31:46.000
+And this is essentially all the inputs that are needed to give to the… to NOVA in order to start building the food.
+
+00:31:46.000 --> 00:31:51.000
+So, uh, now it's going to go back and build these agents.
+
+00:31:51.000 --> 00:31:55.000
+Uh, it's gonna actually read the rules, how to build new agents.
+
+00:31:55.000 --> 00:32:02.000
+Um, you can see that it's kind of start writing names, uh, give names to these agents and, uh, and roles, specifically.
+
+00:32:02.000 --> 00:32:09.000
+And he's gonna start building. personas for each of the agents. So, it's designed for agent crew.
+
+00:32:09.000 --> 00:32:19.000
+covering the 21 tasks. Right now, it's building the agent persona that's called Riley, which was the content creation agent, if I'm not mistaken.
+
+00:32:19.000 --> 00:32:24.000
+And you can see here, this is doing the job automatically, so it started building the crew.
+
+00:32:24.000 --> 00:32:32.000
+based on your input. Okay, so this is going to take a little bit. We're going to go… we're going to wait until this is built in completely.
+
+00:32:32.000 --> 00:32:40.000
+Um… Or maybe what I could do, actually, I can let us continue the work, now it's going to the second agent.
+
+00:32:40.000 --> 00:32:48.000
+Um… I think it's going fast enough. You know, maybe I think we can wait, just wait.
+
+00:32:48.000 --> 00:32:57.000
+Now, if I look at this, uh, I think this is already… finalized, let me see… he's gonna write these files, these markdown files.
+
+00:32:57.000 --> 00:33:03.000
+That describe what these agents do, what the responsibility, what the task they're gonna do.
+
+00:33:03.000 --> 00:33:08.000
+And it's going to save those files here into the folders.
+
+00:33:08.000 --> 00:33:15.000
+So that I can just open it up and review and see if that's okay. Maybe I want to change it.
+
+00:33:15.000 --> 00:33:18.000
+If I want to change the behavior, I want to change or eliminate some tasks.
+
+00:33:18.000 --> 00:33:26.000
+So, uh, it's now to the… the agent number 4, number 3, sorry.
+
+00:33:26.000 --> 00:33:30.000
+Define task priority. So it's building the crew in real time for me.
+
+00:33:30.000 --> 00:33:35.000
+I'm just going to take maybe, you know. 3-4 minutes most.
+
+00:33:35.000 --> 00:33:40.000
+Um, and once we have the screw built, then, you know, the work of NO, it's done.
+
+00:33:40.000 --> 00:33:45.000
+And then we can start working with the agents that are in my group.
+
+00:33:45.000 --> 00:33:53.000
+Okay. Uh, maybe what I can do, uh, I'm gonna show you, just in the interest of time, I didn't plan to do that, but in the interest of time.
+
+00:33:53.000 --> 00:34:02.000
+I'm just gonna show my crew here. Which, uh… which I have in the other screen, let's see.
+
+00:34:02.000 --> 00:34:10.000
+I can find it. Um…
+
+00:34:10.000 --> 00:34:14.000
+Yeah, I'm just gonna show my kitchen to you guys.
+
+00:34:14.000 --> 00:34:19.000
+I gotta bring it here, and I gotta show you this… this, uh, my marketing tool is very similar to the one.
+
+00:34:19.000 --> 00:34:28.000
+that we're building out together. Um… And you can see here that, uh, see, I was chatting before this presentation.
+
+00:34:28.000 --> 00:34:37.000
+Uh, with one of these agents. to build the slides for this presentation, right? So that's what I did.
+
+00:34:37.000 --> 00:34:41.000
+Uh, right before this meeting. And you can see here, I have my contacts here.
+
+00:34:41.000 --> 00:34:48.000
+Um… Let me see… it's a little bit slow because it's computing on the other side.
+
+00:34:48.000 --> 00:34:52.000
+But I just wanted to show you, I have multiple sessions here.
+
+00:34:52.000 --> 00:35:00.000
+I have, uh, different, uh… agents here. So, for example, just want to show you Alex.
+
+00:35:00.000 --> 00:35:05.000
+Markdown here. I described the persona, the task.
+
+00:35:05.000 --> 00:35:09.000
+the skills that he has, what kind of tools they use.
+
+00:35:09.000 --> 00:35:15.000
+I work, so what the level of autonomy it has, based on what I've defined.
+
+00:35:15.000 --> 00:35:18.000
+What kind of outputs, right? And how it coordinates with your agents.
+
+00:35:18.000 --> 00:35:22.000
+Um, you can see here, just if I show you.
+
+00:35:22.000 --> 00:35:36.000
+the status, for example. This is… this is a file where the… all the agents, uh… store… when they… when I ask them to do something, and they complete the task, they're gonna log this here. So, I've been starting using this, uh.
+
+00:35:36.000 --> 00:35:40.000
+last week, so the different agents are logging their work here.
+
+00:35:40.000 --> 00:35:50.000
+And I can just use this folder, you know, to have my actual document. I have some, uh… Lightning lessons I have, uh, research that I've done.
+
+00:35:50.000 --> 00:35:55.000
+Here, for example, is a sort of anthropic paper, just like working in your computer.
+
+00:35:55.000 --> 00:36:00.000
+We, you know, accessing the file just the way you do today, but it's just you do it through this.
+
+00:36:00.000 --> 00:36:09.000
+interface, um, that I'm providing here, so that the agents can share the same context, right? So this is just a PDF.
+
+00:36:09.000 --> 00:36:14.000
+Uh, that I've been using for research and so forth. I have some reports.
+
+00:36:14.000 --> 00:36:25.000
+And so, this is important because now the work is sharing, whether it's something that I find on the internet, maybe something I wrote, or maybe something the agent will.
+
+00:36:25.000 --> 00:36:36.000
+They're all sharing the same context here. I have analysis, I have, uh… Excel files, I've asked maybe some of the agents do some, um, funnel analysis on my course.
+
+00:36:36.000 --> 00:36:40.000
+Uh, have different assets or different drafts, different plans, and so forth.
+
+00:36:40.000 --> 00:36:45.000
+Right, so this is a little bit about… the way I've been using the crew.
+
+00:36:45.000 --> 00:36:51.000
+That, uh, similar to what we're building. Uh, so that's… that's things I wanted to show you.
+
+00:36:51.000 --> 00:36:57.000
+while we do this. We can go back to the presentation, maybe we can come back to this later.
+
+00:36:57.000 --> 00:37:01.000
+Uh, to see when it's finished, but just in the interest of time, I just wanted to.
+
+00:37:01.000 --> 00:37:09.000
+uh, finalize the presentation. Um, I just want to point out a couple of things, right? First of all.
+
+00:37:09.000 --> 00:37:18.000
+the… the setup, the 7-day plan, it actually could take a lot less than 7 days, but I thought I'd give sort of a guideline to.
+
+00:37:18.000 --> 00:37:23.000
+how do you get started with this, right? So, day 1 and 2, you want to set up Nova.
+
+00:37:23.000 --> 00:37:27.000
+You create the project folder like I did, you can start to familiarize with yourself.
+
+00:37:27.000 --> 00:37:30.000
+You can start asking questions to the agent to understand how they behave.
+
+00:37:30.000 --> 00:37:34.000
+Right? So that's just to get familiar with the… with the environment.
+
+00:37:34.000 --> 00:37:37.000
+Then you can start having, once you have the pro, you start to.
+
+00:37:37.000 --> 00:37:43.000
+Review the crew members that was created, uh, you want to maybe customize the roles.
+
+00:37:43.000 --> 00:37:49.000
+It's basically a customization stage. Uh, for having the crew that is going to help you with your work.
+
+00:37:49.000 --> 00:37:55.000
+Now, the step 3, you can start giving the crew, the agents, some real task.
+
+00:37:55.000 --> 00:38:10.000
+So you can see some outperformance, you can start bringing some context into the project, and you can see… and start delegating the project. So that's… you know, I think 7 days is probably too long of a time to actually do. You can see that, uh.
+
+00:38:10.000 --> 00:38:19.000
+But just to get it familiar, I think you can definitely do this in a week, and start getting from zero, start getting excited to work together with agents and have a very powerful.
+
+00:38:19.000 --> 00:38:30.000
+agents, uh, to help you with the… Okay. Um, just to close it up and summarize it, um, the timing now to jump on this wagon and.
+
+00:38:30.000 --> 00:38:41.000
+learn how to work with agents. It's perfect, right? Both because the technology's there, the market is ripe for this change. The big players invest in billions.
+
+00:38:41.000 --> 00:38:45.000
+As early adopters are taking advantage of this and getting ahead.
+
+00:38:45.000 --> 00:38:51.000
+Uh, it's a very good opportunity, and, you know, if there is any risk, it's really actually to wait too long.
+
+00:38:51.000 --> 00:38:56.000
+Uh, to, you know, till everybody else has been going through, and they can get ahead.
+
+00:38:56.000 --> 00:39:08.000
+And be… maintain their position in the market. Um, what I'm gonna do, I'm gonna show you… actually build a link, a page.
+
+00:39:08.000 --> 00:39:17.000
+where you can actually click on a button. after you install cursor in your machine, you can actually click this button to install Mova just with the click.
+
+00:39:17.000 --> 00:39:21.000
+This is going to open a window of a chat window that's going to.
+
+00:39:21.000 --> 00:39:26.000
+take the files that I have and install in your, in your environment.
+
+00:39:26.000 --> 00:39:32.000
+And then, you know, it's going to take 5 minutes to do the installation, but then you're going to start building the crew just the way I was doing before.
+
+00:39:32.000 --> 00:39:35.000
+And you can just start doing the first project.
+
+00:39:35.000 --> 00:39:46.000
+when you start bringing some context to, too. To the environment. Um… Let me see here, still… still working. Nova, we're gonna… we're gonna come back to him.
+
+00:39:46.000 --> 00:39:49.000
+in a bit, at the end of the presentation.
+
+00:39:49.000 --> 00:39:57.000
+Um, while we have Nova finalizing it, I wanted to mention my Maven courses. This is actually for technical people.
+
+00:39:57.000 --> 00:40:00.000
+I don't know if some of you are in this, uh.
+
+00:40:00.000 --> 00:40:08.000
+in this bucket, in this, uh, configuring this group of people, but this is a very similar. I actually built a framework that helps.
+
+00:40:08.000 --> 00:40:15.000
+Software development built approach as a multi-agent AI systems in 6 weeks. It's a 6-week score-based project.
+
+00:40:15.000 --> 00:40:19.000
+to actually build and develop. This is more for a technical audience.
+
+00:40:19.000 --> 00:40:32.000
+But essentially, I've used the same principle that I've shown to you. Right now, I've been doing this for software development, and I can show you, like I showed before, you can do this also for whatever knowledge work you're doing.
+
+00:40:32.000 --> 00:40:42.000
+Um, just a little bit about the… the journey, or the user… the students in my class are taking. Essentially, we're going… we have a crew of agents.
+
+00:40:42.000 --> 00:40:47.000
+front-end engineering, a back-end engineering, there's an integration engineer.
+
+00:40:47.000 --> 00:40:53.000
+product manager, a number of agent personnel that actually help you to actually build the product end-to-end.
+
+00:40:53.000 --> 00:40:57.000
+So this is a little bit more advanced and more technical, but because you actually build an application.
+
+00:40:57.000 --> 00:41:03.000
+Uh, but the way you work with the agents is similar. The framework and the ideas are similar.
+
+00:41:03.000 --> 00:41:08.000
+I just want to mention, uh, just a little bit about the reviews I got from some of my students.
+
+00:41:08.000 --> 00:41:13.000
+Interestingly enough, some of the students are not technical people, but they were able to build actual application.
+
+00:41:13.000 --> 00:41:21.000
+Using the frame that I will show you. And so, just a little bit about the takeaway. If you think about, now, the shift is happening now.
+
+00:41:21.000 --> 00:41:26.000
+And, of course, early adopters have an advantage. It's really easy to start.
+
+00:41:26.000 --> 00:41:31.000
+I'm gonna share the resources that I presented later in the, uh.
+
+00:41:31.000 --> 00:41:37.000
+with you in an email, a follow-up email. And so you can install NOVA, you can build your crew.
+
+00:41:37.000 --> 00:41:44.000
+Uh, and start delegating the work to them. Okay? Uh, let's see… let's see how far now we're… Well, it's still working.
+
+00:41:44.000 --> 00:41:51.000
+Still working. Uh… Yep. It's taking longer than I… than I thought.
+
+00:41:51.000 --> 00:42:02.000
+So, uh, yeah, I'll just… just show you the… the… the… the workflow, you know, basically what I did. So, when you install Nova.
+
+00:42:02.000 --> 00:42:08.000
+you know what actually to expect, right? You know, you probably need to wait a little bit.
+
+00:42:08.000 --> 00:42:14.000
+Let's see… Let's see how far it goes.
+
+00:42:14.000 --> 00:42:21.000
+This is writing of the… still writing some of the, uh… Okay, so now it's on this status.
+
+00:42:21.000 --> 00:42:25.000
+work. You can see here some of the artifacts, the install guide that was created.
+
+00:42:25.000 --> 00:42:31.000
+Uh, my crew, maybe we can take a look at this. Uh, this is something that NOVA created for us now.
+
+00:42:31.000 --> 00:42:35.000
+This is another file that describes the clue that you just created.
+
+00:42:35.000 --> 00:42:42.000
+I found it useful because sometimes I… Sometimes I forget, you know, which agent is responsible for what.
+
+00:42:42.000 --> 00:42:46.000
+And so, um, Nova is going to create this micro.
+
+00:42:46.000 --> 00:42:50.000
+file where it actually described, you know, what, uh.
+
+00:42:50.000 --> 00:42:58.000
+Who are the agents in your crew? What are their responsibility, and how you can call them and book them in the chat.
+
+00:42:58.000 --> 00:43:09.000
+Okay, um… And yes, I forgot about this, but, you know, if I go back… into my… into my work. That's exactly how you work with the group, right?
+
+00:43:09.000 --> 00:43:18.000
+you store… you store it in your chat. And, um… and my computer is very slow, maybe.
+
+00:43:18.000 --> 00:43:27.000
+It's a little bit… and I can ask maybe, uh… you know, Jordan…
+
+00:43:27.000 --> 00:43:35.000
+Uh, what is… The last task you… Uh, yesterday.
+
+00:43:35.000 --> 00:43:44.000
+Just to have an interaction with Jordan. Uh, and Jordan is one of the team… one of the AI in my engineering team.
+
+00:43:44.000 --> 00:43:53.000
+Now, this is competing with the other NOVA that I have running on the other side, so this is a little bit slow.
+
+00:43:53.000 --> 00:43:57.000
+Uh, but I just wanted to show the way you kind of interact with the agents once you have them created.
+
+00:43:57.000 --> 00:44:05.000
+And so, now he's gonna go back at the status, uh, he understands the task, the things that he's been doing.
+
+00:44:05.000 --> 00:44:18.000
+And so we actually did a check of the… You know, uh, landing page, uh… Call to action, and it gives me an output, you give me an output file that he created, so I can go back there.
+
+00:44:18.000 --> 00:44:29.000
+Okay. Uh, okay, so actually now, this number. finished to do the work, so I can see… that I… it gives me a little bit of a summary.
+
+00:44:29.000 --> 00:44:39.000
+But what he did, uh, if I go back… Uh, I have the agents here, and I have the definitions there.
+
+00:44:39.000 --> 00:44:47.000
+I have the crew, I have the status, where now this is an empty, but, you know, agents are going to start to fill in these notifications.
+
+00:44:47.000 --> 00:44:50.000
+To keep track of the work that we're doing.
+
+00:44:50.000 --> 00:44:55.000
+Great. Alright, I'm going to stop now the demo part.
+
+00:44:55.000 --> 00:45:05.000
+And I'm going to ask if there's any questions about this.
+
+00:45:05.000 --> 00:45:17.000
+Anybody? Still there?
+
+00:45:17.000 --> 00:45:31.000
+I can see there's some people there, I don't know, just unmute yourself, or raise your hand.
+
+00:45:31.000 --> 00:45:36.000
+All right, if there are no questions, um, you will receive an email.
+
+00:45:36.000 --> 00:45:45.000
+Uh, thank you, Milling. Thank you for the… Christina. I see some… Comments in the chat. Thank you very much for your, uh, for your participation.
+
+00:45:45.000 --> 00:45:50.000
+Um, so… what I… what I will do, you're gonna get the link to the recording.
+
+00:45:50.000 --> 00:45:55.000
+Uh, this is going to come maybe in the next day or two, directly from, uh.
+
+00:45:55.000 --> 00:46:01.000
+From Maven, uh, you… you're also gonna get an email from you with the resources, so you're gonna get the link.
+
+00:46:01.000 --> 00:46:06.000
+And understanding how you're going to install Nova and start playing. And of course, you can get in touch with me.
+
+00:46:06.000 --> 00:46:12.000
+Uh, if you have any questions, okay? Thank you so much, and have a great week.
+
+00:46:12.000 --> 00:46:20.000
+Bye-bye.
+

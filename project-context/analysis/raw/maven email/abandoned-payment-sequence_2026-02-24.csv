@@ -1,0 +1,6 @@
+campaign_type,email_subject,audience,trigger_timing,delivered,opened,open_rate_pct,click_rate_pct,notes
+Abandoned payment sequence,I'm holding your spot - one click to finish,Abandoned payment (drop-off),1 hour after a student drops off from the payment process,72,45,62.5,11.1,
+Abandoned payment sequence,Still there? Your spot is still reserved,Abandoned payment (drop-off),6 hours after a student drops off from the payment process,9,6,66.7,22.2,
+Abandoned payment sequence,Still thinking about joining?,Abandoned payment (drop-off),1 day after a student drops off from the payment process,64,35,54.7,15.6,
+Abandoned payment sequence,What others are saying (and why it's worth it),Abandoned payment (drop-off),2 days after a student drops off from the payment process,12,3,25.0,0.0,
+Abandoned payment sequence,Last chance: Cohort 3 closes Feb 20,Abandoned payment (drop-off),3 days after a student drops off from the payment process,59,33,55.9,8.5,

@@ -1,0 +1,5 @@
+datetime,Subject,Description,Delivered,Opened,Open_rate_pct,Click_rate_pct
+2026-02-10,"I'm holding a spot for you",1 hour after a student drops off from the payment process,65,38,58.5,7.7
+2026-02-10,"Still thinking about joining?",1 day after a student drops off from the payment process,59,33,55.9,16.9
+2026-02-10,"Busy? That's exactly why this was built.",2 days after a student drops off from the payment process,53,30,56.6,9.4
+2026-02-10,"Don't just take my word for it",4 days after a student drops off from the payment process,2,1,50.0,0.0
