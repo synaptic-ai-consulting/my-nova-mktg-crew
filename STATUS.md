@@ -10,6 +10,7 @@
 <!-- Agents add notifications here. Clear them after reading. -->
 
 | Time | Agent | Message | Action Needed |
+| 2026-02-27 | — | ✅ Syllabus scraped from Maven course page → project-context/syllabus/agentic-architect-syllabus.md (modules & projects by week; Weeks 1–2 detailed, 3–6 overview; full syllabus behind login). | No |
 | 2026-02-25 | Jordan | ✅ **Abandoned cart emails reverted to generic (post–Cohort 3).** New sequence → project-context/final/Abandoned Cart Emails/2026-02-25/ (4 emails: 1hr, 1day, 2day, 4day). Based on 2026-02-03; no cohort/deadline copy. README in folder. | No |
 | 2026-02-24 | Alex | ✅ **Weekly report (Feb 16–22)** generated → project-context/reports/weekly-report-2026-02-22.md. 8 new C3 enrollments in week; 17 by end of Sun Feb 22; LP conversion 2.0% for the week; 14+ emails sent; execution ~88%. | No |
 | 2026-02-24 | Alex | ✅ **Cohort 3 campaign closed — final status.** Enrollment closed Sun Feb 22 noon GMT-3. **20 students** (goal 19 exceeded). 3 signed up after deadline (2 Mon Feb 23, 1 Tue Feb 24). Plan updated: executive summary, comprehensive results analysis, funnel snapshot (Feb 24), Key Data Sources. New email CSVs → project-context/analysis/raw/maven email/ (broadcast-email-campaigns_2026-02-24.csv, abandoned-payment-sequence_2026-02-24.csv). See project-context/plans/cohort3-10days-conversion-plan.md. | No |

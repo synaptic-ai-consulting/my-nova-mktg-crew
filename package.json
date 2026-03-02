@@ -1,0 +1,7 @@
+{
+  "name": "my-nova-mktg-crew",
+  "private": true,
+  "scripts": {
+    "dev": "streamlit run model/src/dashboard.py"
+  }
+}

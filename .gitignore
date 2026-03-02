@@ -5,6 +5,10 @@
 # Cursor IDE local config (optional: remove to commit .cursor/rules)
 .cursor/
 
+# Python
+__pycache__/
+*.pyc
+
 # Misc
 *.log
 .DS_Store
