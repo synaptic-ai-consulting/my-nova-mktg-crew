@@ -38,6 +38,7 @@
 | Alex | Funnel Operations Manager | Funnel map, metrics, bottlenecks, consistency |
 | Jordan | Conversion Optimizer | Conversion copy, A/B tests, conversion analysis, post-signup |
 | Sage | Video Content Producer | Transcribe lessons, identify golden moments, produce short-form video clips, platform formatting |
+| Casey | Course Portfolio & Syllabus Strategist | Portfolio design (gold/silver/bronze), syllabus development, content mapping, funnel progression |
 
 ---
 

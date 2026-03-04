@@ -10,6 +10,20 @@
 <!-- Agents add notifications here. Clear them after reading. -->
 
 | Time | Agent | Message | Action Needed |
+| 2026-03-05 | Alex | ✅ **Cohort 4 plan updated** — Funnel conversion additions (Part 2C, FC1–FC9) added: Bronze completers segment, post-completion email, Silver welcome sequence, Silver abandoned cart, Silver deadline, LL→Silver narrowcast, in-session upgrade, scholarship non-winners, funnel metrics. Owners and weeks assigned. → project-context/plans/cohort4-acquisition-plan-2026-03.md | No |
+| 2026-03-05 | Carmelo | ✅ **LinkedIn post — March Calendar** published → [Post](https://www.linkedin.com/posts/carmeloiaria_become-an-agentic-architect-by-carmelo-iaria-activity-7434986189868158976--0Lx). Calendar format (Playbook, SDLC, Fundamentals, LL Mar 18, Silver 101, Gold EARLYBIRD, AAMAD). Same format as best-performing Jan post. | No |
+| 2026-03-04 | Carmelo | ✅ **Newsletter "The Agentic Architect Momentum"** published on LinkedIn → https://www.linkedin.com/pulse/agentic-architect-momentum-carmelo-iaria-h3laf/ | No |
+| 2026-03-04 | Carmelo | ✅ **Silver (Agentic Architect 101)** published on Maven → https://maven.com/carmelo-iaria/agentic-architect-one-o-one. $349, Mar 21 + Mar 28 (2× 2hr Saturdays). Plan actions 1.2, 1.5 complete. | No |
+| 2026-03-04 | Carmelo | ✅ **Bronze** (Action 1.3) done — No new LM/LL; existing Gold-mapped LM/LL used in Bronze/Silver comms → signups flow to Gold waitlist. | No |
+| 2026-03-04 | Carmelo | ✅ **LinkedIn post** (Action 1.4) published → https://www.linkedin.com/posts/carmeloiaria_something-is-happening-to-software-development-activity-7434762066890113025-Gvkk. Learning Roadmap + authority quotes + newsletter CTA. Plan action 1.4 complete. | No |
+| 2026-03-03 | Riley | ✅ **LinkedIn post** (Action 1.4) approved → moved to project-context/final/LInkedIn/2026-03-03 - Learning Roadmap Launch - All Three Tiers.md. Authority-only tease; newsletter CTA; Jordan strategy. Ready to publish. | No |
+| 2026-03-05 | Carmelo | ✅ **Learning Roadmap launch broadcast** (Action 1.1) **sent**. Staggered discount roadmap for Gold: **EARLYBIRD** code — 40% by Mar 15 ($1,197), 20% by Mar 29 ($1,596), full price after. Update discount on EARLYBIRD code as dates pass. | No |
+| 2026-03-03 | Morgan | ✅ **Newsletter "The Agentic Architect Momentum"** (Action 1.5) drafted → project-context/drafts/Newsletter/2026-03-04-the-agentic-architect-momentum.md. 8+ sources (CEOs, WEF, DORA, Anthropic, Cursor/Truell, Yegge, Booch, etc.) + Learning Roadmap (3 tiers). Michael Truell article added as Source 51 to 50-resources. | Yes — review before publish |
+| 2026-03-04 | Casey | ✅ **Lightning Lesson draft (ASO)** created → project-context/drafts/Lightning Lessons/2026-03-ASO-Scale-Agent-Oversight-Lightning-Lesson.md. Title "Scale AI Agent Oversight Beyond 8", Maven listing copy, 30-min structure, ICP hooks, research sources. Based on ASO paper. Ready for review. | Yes — review before creating on Maven |
+| 2026-03-04 | Casey | ✅ **Agentic Architect 101 Maven LP copy** created → project-context/syllabus/agentic-architect-101-maven-lp-copy.md. All sections (Hero, Why this course matters, What you'll learn, Who for, Prereqs, What's included, Syllabus, Schedule, FAQs). Headline 48/50 chars; Overview ~1,050/1,700 chars. | No |
+| 2026-03-02 | Casey | ✅ **Portfolio revised** per your inputs: Bronze = Learn AAMAD (GitHub Pages, free, cert+LinkedIn); Silver = 4h live + coaching at $399, same scope as Bronze; survey insights (price sensitivity, format, live debugging) integrated. → project-context/syllabus/agentic-architect-portfolio-gold-silver-bronze.md | No |
+| 2026-03-02 | Nova | ✅ New agent added: **Casey** — Course Portfolio & Syllabus Strategist. Persona → .cursor/rules/casey.md. AGENTS.md & MYCREW.md updated. Tasks: portfolio design (gold/silver/bronze), syllabus development, content mapping, funnel progression. | No |
+| 2026-03-02 | Riley | ✅ **Cohort 4 Acquisition Plan** updated → project-context/plans/cohort4-acquisition-plan-2026-03.md. **Unified Learning Roadmap launch** (Bronze + Silver + Gold) on Mar 3. Silver Session 1 ~Mar 23 → launch Day 1. **Waitlist strategy** → project-context/research/maven-multi-course-waitlist-strategy.md (Gold as single channel; Bronze/Silver → Gold survey). | No |
 | 2026-02-27 | — | ✅ Syllabus scraped from Maven course page → project-context/syllabus/agentic-architect-syllabus.md (modules & projects by week; Weeks 1–2 detailed, 3–6 overview; full syllabus behind login). | No |
 | 2026-02-25 | Jordan | ✅ **Abandoned cart emails reverted to generic (post–Cohort 3).** New sequence → project-context/final/Abandoned Cart Emails/2026-02-25/ (4 emails: 1hr, 1day, 2day, 4day). Based on 2026-02-03; no cohort/deadline copy. README in folder. | No |
 | 2026-02-24 | Alex | ✅ **Weekly report (Feb 16–22)** generated → project-context/reports/weekly-report-2026-02-22.md. 8 new C3 enrollments in week; 17 by end of Sun Feb 22; LP conversion 2.0% for the week; 14+ emails sent; execution ~88%. | No |
@@ -82,6 +96,9 @@
 
 | Date | Agent | Task | Output Location |
 |------|-------|------|-----------------|
+| 2026-03-05 | Carmelo | LinkedIn post — March Calendar published. Calendar format: Playbook, SDLC, Fundamentals, LL Mar 18 (Scale Human Oversight), Silver 101, Gold EARLYBIRD, AAMAD. | [Post](https://www.linkedin.com/posts/carmeloiaria_become-an-agentic-architect-by-carmelo-iaria-activity-7434986189868158976--0Lx) |
+| 2026-03-03 | Carmelo | LinkedIn post (Action 1.4) published on LinkedIn — Learning Roadmap launch, authority-only tease, newsletter CTA. Plan action 1.4 complete. | project-context/final/LInkedIn/2026-03-03 - Learning Roadmap Launch - All Three Tiers.md |
+| 2026-03-03 | Riley | LinkedIn post (Action 1.4) — Learning Roadmap launch; authority-only tease; newsletter CTA; moved to final | project-context/final/LInkedIn/2026-03-03 - Learning Roadmap Launch - All Three Tiers.md |
 | 2026-02-25 | Jordan | Abandoned cart sequence reverted to generic (4 emails, 1hr/1d/2d/4d) for post–Cohort 3; stored in 2026-02-25 folder with README | project-context/final/Abandoned Cart Emails/2026-02-25/ |
 | 2026-02-20 | Carmelo | Extension broadcast sent — full waitlist (~1,904), deadline Sun Feb 22 15:00 UTC, Top 5 + Wall of Fame + price increase + LL25 + scholarship. | project-context/final/Maven Email Broadcast/2026-02-20 - Extension Broadcast - Closes Sunday Feb 22 15h UTC.md |
 | 2026-02-18 | Carmelo | LL summary broadcast sent to full waitlist — repurposed LL follow-up email for full waitlist audience. | project-context/final/Maven Email Broadcast/2026-02-18 - LL summary broadcast + agentic architect roadmap message.md |
@@ -133,7 +150,9 @@
 
 ## 📈 Weekly Summary
 
-**Cohort 3 campaign — closed.** Enrollment closed Sun Feb 22, 2026 noon GMT-3. **Final Cohort 3 size: 20 students** (goal was 19; exceeded by 1). 3 signups after deadline (2 Mon Feb 23, 1 Tue Feb 24). Campaign added **+11 net new enrollments** from Feb 10 (9 enrolled) to close. Data refreshed Feb 24: LP (2,947 visitors, 135 clicked Enroll, 31 total purchases), waitlist (1,899), enrolled student detail, LL, webhooks, scholarship folder. Email snapshots (broadcast + abandoned payment) → project-context/analysis/raw/maven email/ (broadcast-email-campaigns_2026-02-24.csv, abandoned-payment-sequence_2026-02-24.csv). Full analysis and executive summary in project-context/plans/cohort3-10days-conversion-plan.md.  
+**Cohort 4 acquisition campaign — in progress.** Plan → project-context/plans/cohort4-acquisition-plan-2026-03.md. **Goal: 40 students** (double C3's 20). **Published:** Learning Roadmap broadcast (sent), Newsletter, Silver on Maven, LinkedIn post. **Gold discount:** EARLYBIRD — 40% by Mar 15 ($1,197), 20% by Mar 29 ($1,596), full after. Update code as dates pass. **Next:** LL #1 (Mar 11–12), EARLYBIRD update Mar 16.
+
+**Cohort 3 (closed):** Final size 20 students. Campaign learnings applied to C4 plan.  
 
 ---
 

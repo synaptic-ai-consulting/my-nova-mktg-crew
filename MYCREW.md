@@ -10,8 +10,8 @@
 **Your Role:** Marketing operations — Maven course promotion  
 **Context:** Student acquisition, authority content, funnel management, lead conversion  
 **Autonomy Level:** LOW 🟢  
-**Number of Agents:** 5  
-**Total Tasks Covered:** 21  
+**Number of Agents:** 6  
+**Total Tasks Covered:** 26  
 
 ---
 
@@ -43,6 +43,11 @@
 **Invoke:** `@sage.md`  
 **MCP Tools:** Whisper (transcription), FFmpeg (video operations)
 
+### 📚 Casey — Course Portfolio & Syllabus Strategist
+**Specialty:** Designing your course portfolio (gold/silver/bronze) and developing syllabi for each tier.  
+**Tasks:** Portfolio design and documentation, syllabus structure per tier, content mapping across tiers, learning objectives, funnel progression and upgrade paths  
+**Invoke:** `@casey.md`
+
 ---
 
 ## 🗺️ Task Map
@@ -70,6 +75,11 @@
 | Format and optimize shorts for each platform | Sage | 🟡 | Per clip |
 | Maintain Video Content Library | Sage | 🟡 | Ongoing |
 | Propose clip concepts aligned with marketing strategy | Sage | 🟡 | Weekly / per campaign |
+| Design and document course portfolio (gold/silver/bronze) | Casey | 🔴 | Per portfolio change |
+| Develop syllabus structure for each course tier | Casey | 🔴 | Per new course / revision |
+| Map content from existing courses to new tiers | Casey | 🔴 | Per new tier creation |
+| Define learning objectives and outcomes per tier | Casey | 🟡 | Per course / revision |
+| Document funnel progression and upgrade paths | Casey | 🟡 | Per portfolio change |
 
 ---
 
@@ -85,6 +95,7 @@
 - `@morgan.md Draft a 5-email nurture sequence for my upcoming launch`
 - `@alex.md Map my current funnel and list what we should track`
 - `@jordan.md Write conversion copy for my course landing page`
+- `@casey.md Design my gold/silver/bronze course portfolio and map content for a 2-week silver offer`
 
 ### How to Update Your Crew's Knowledge
 - Edit **AGENTS.md** to update priorities, context, standing instructions, or constraints
@@ -113,6 +124,7 @@
 | `alex.md` | `.cursor/rules/` | Funnel Operations Manager |
 | `jordan.md` | `.cursor/rules/` | Conversion Optimizer |
 | `sage.md` | `.cursor/rules/` | Video Content Producer |
+| `casey.md` | `.cursor/rules/` | Course Portfolio & Syllabus Strategist |
 | `mcp.json` | `.cursor/` | MCP server config (Whisper + FFmpeg) |
 | `AGENTS.md` | Project root | Shared crew memory |
 | `STATUS.md` | Project root | Task status & notifications |
