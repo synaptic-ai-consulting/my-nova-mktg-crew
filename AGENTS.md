@@ -67,3 +67,51 @@
 ---
 
 *Last updated: 2025-02-08*
+
+---
+
+## Cursor Cloud specific instructions
+
+### Project overview
+
+This is a Python/Streamlit marketing operations project for tracking student engagement in the "Become an Agentic Architect" Maven course. The main application is a **Streamlit dashboard** at `model/src/dashboard.py`.
+
+### Hardcoded paths — symlink required
+
+All Python files use hardcoded absolute paths referencing `/home/italiano/projects/my-nova-mktg-crew/`. In the Cloud VM, the workspace is at `/workspace`. A symlink bridges the gap:
+
+```
+sudo mkdir -p /home/italiano/projects
+sudo ln -sfn /workspace /home/italiano/projects/my-nova-mktg-crew
+```
+
+The update script creates this symlink automatically on every session start.
+
+### Running the dashboard
+
+```
+streamlit run model/src/dashboard.py --server.port 8501 --server.headless true --server.address 0.0.0.0
+```
+
+Or equivalently: `npm run dev` (defined in `package.json`, but requires `streamlit` on PATH).
+
+### Python dependencies
+
+Core: `streamlit`, `pandas`, `plotly`, `numpy`. No root-level `requirements.txt` exists; the update script installs these via pip.
+
+Optional (Google Sheets sync only): `gspread`, `google-auth` — see `scripts/requirements-maven-webhooks.txt`.
+
+### Linting
+
+No linting config is committed. Use `flake8 --max-line-length 150` for basic Python style checks.
+
+### Data pipeline
+
+- Raw CSVs live in `project-context/analysis/raw/cohorts/3/` (and other subdirs).
+- `data/src/dynamic_processor.py` processes raw data into `data/processed/`.
+- `scripts/run_segmentation.py` runs lead segmentation on waitlist/cart/webhook CSVs.
+- The dashboard reads from `data/processed/` at runtime.
+
+### PATH note
+
+`pip install --user` places binaries in `~/.local/bin`. Ensure `$HOME/.local/bin` is on `PATH` (the update script handles this via `~/.bashrc`).
